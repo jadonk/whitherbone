@@ -3,7 +3,7 @@ version=1
 last_client=kicad
 [pcbnew]
 version=1
-LastNetListRead=PocketBeagle.net
+LastNetListRead=whitherbone.net
 UseCmpFile=1
 PadDrill=0.600000000000
 PadDrillOvalY=0.600000000000
@@ -29,5 +29,5 @@ version=1
 version=1
 LibDir=
 [eeschema/libraries]
-LibName1=witherbone
+LibName1=whitherbone
 LibName2=downloads/TFP410

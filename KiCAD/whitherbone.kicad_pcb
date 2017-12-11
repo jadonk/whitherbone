@@ -11,7 +11,7 @@
 
   (page A4)
   (title_block
-    (title "PocketBeagle KiCAD")
+    (title "whitherbone KiCAD")
     (date 2017-08-14)
     (comment 1 "Prototyped by: GHI Electronics, LLC")
     (comment 2 "Converted to KiCAD: QWERTY Embedded Design, LLC")
@@ -480,7 +480,7 @@
     (add_net VIN.BAT)
   )
 
-  (module PocketBeagle.pretty:0603-LED (layer Top) (tedit 200000) (tstamp 5992061C)
+  (module whitherbone.pretty:0603-LED (layer Top) (tedit 200000) (tstamp 5992061C)
     (at 124.6841 95.0716 90)
     (path /59921FBF)
     (attr smd)
@@ -551,7 +551,7 @@
       (net 8 VDD_3V3AUX))
   )
 
-  (module PocketBeagle.pretty:0603-LED (layer Top) (tedit 200000) (tstamp 599205DA)
+  (module whitherbone.pretty:0603-LED (layer Top) (tedit 200000) (tstamp 599205DA)
     (at 123.6681 112.5976)
     (path /59924157)
     (attr smd)
@@ -622,7 +622,7 @@
       (net 123 "/(U1.P14)USR3"))
   )
 
-  (module PocketBeagle.pretty:0603-LED (layer Top) (tedit 200000) (tstamp 599205F0)
+  (module whitherbone.pretty:0603-LED (layer Top) (tedit 200000) (tstamp 599205F0)
     (at 125.9541 112.5976)
     (path /5992408F)
     (attr smd)
@@ -693,7 +693,7 @@
       (net 116 "/(U1.R14)USR2"))
   )
 
-  (module PocketBeagle.pretty:0603-LED (layer Top) (tedit 200000) (tstamp 59920606)
+  (module whitherbone.pretty:0603-LED (layer Top) (tedit 200000) (tstamp 59920606)
     (at 128.2401 112.5976)
     (path /59923FC7)
     (attr smd)
@@ -764,7 +764,7 @@
       (net 109 "/(U1.T14)USR1"))
   )
 
-  (module PocketBeagle.pretty:0603-LED (layer Top) (tedit 200000) (tstamp 59920632)
+  (module whitherbone.pretty:0603-LED (layer Top) (tedit 200000) (tstamp 59920632)
     (at 130.5261 112.5976)
     (path /59923EFF)
     (attr smd)
@@ -835,7 +835,7 @@
       (net 124 "/(U1.P13)USR0"))
   )
 
-  (module PocketBeagle.pretty:MINI_PUSHBUTTON (layer Top) (tedit 200000) (tstamp 59920648)
+  (module whitherbone.pretty:MINI_PUSHBUTTON (layer Top) (tedit 200000) (tstamp 59920648)
     (at 129.2561 108.2796)
     (path /59921EF7)
     (attr smd)
@@ -864,7 +864,7 @@
       (net 1 GND))
   )
 
-  (module PocketBeagle.pretty:MICROSD (layer Top) (tedit 200000) (tstamp 599206BC)
+  (module whitherbone.pretty:MICROSD (layer Top) (tedit 200000) (tstamp 599206BC)
     (at 158.4647 107.2876)
     (path /5992692F)
     (attr smd)
@@ -921,7 +921,7 @@
       (net 103 "/(U1.C16)MMC0.D2"))
   )
 
-  (module PocketBeagle.pretty:RN0804 (layer Top) (tedit 200000) (tstamp 59984602)
+  (module whitherbone.pretty:RN0804 (layer Top) (tedit 200000) (tstamp 59984602)
     (at 155.1387 97.3576 270)
     (path /599223A7)
     (attr smd)
@@ -951,7 +951,7 @@
       (net 87 "/(U1.C8)AIN5~1.8V"))
   )
 
-  (module PocketBeagle.pretty:RN0804 (layer Top) (tedit 200000) (tstamp 5998263A)
+  (module whitherbone.pretty:RN0804 (layer Top) (tedit 200000) (tstamp 5998263A)
     (at 124.0491 116.0266 180)
     (path /599222DF)
     (attr smd)
@@ -981,7 +981,7 @@
       (net 85 /N$6))
   )
 
-  (module PocketBeagle.pretty:RN0804 (layer Top) (tedit 200000) (tstamp 599206D9)
+  (module whitherbone.pretty:RN0804 (layer Top) (tedit 200000) (tstamp 599206D9)
     (at 155.1387 105.8158 270)
     (path /599225FF)
     (attr smd)
@@ -1011,7 +1011,7 @@
       (net 95 "/(U1.J2)LCD.D7.G4"))
   )
 
-  (module PocketBeagle.pretty:RN0804 (layer Top) (tedit 200000) (tstamp 599206E6)
+  (module whitherbone.pretty:RN0804 (layer Top) (tedit 200000) (tstamp 599206E6)
     (at 155.1387 103.3774 270)
     (path /59922537)
     (attr smd)
@@ -1041,7 +1041,7 @@
       (net 81 "/(U1.K1)LCD.D11.R3"))
   )
 
-  (module PocketBeagle.pretty:RN0804 (layer Top) (tedit 200000) (tstamp 599206F3)
+  (module whitherbone.pretty:RN0804 (layer Top) (tedit 200000) (tstamp 599206F3)
     (at 155.1387 100.939 270)
     (path /5992246F)
     (attr smd)
@@ -1071,7 +1071,7 @@
       (net 91 "/(U1.M3)LCD.D15.R7"))
   )
 
-  (module PocketBeagle.pretty:RN0804 (layer Top) (tedit 200000) (tstamp 59920858)
+  (module whitherbone.pretty:RN0804 (layer Top) (tedit 200000) (tstamp 59920858)
     (at 161.0823 95.8336)
     (path /5992278F)
     (attr smd)
@@ -1101,7 +1101,7 @@
       (net 103 "/(U1.C16)MMC0.D2"))
   )
 
-  (module PocketBeagle.pretty:RN0804 (layer Top) (tedit 200000) (tstamp 599208A8)
+  (module whitherbone.pretty:RN0804 (layer Top) (tedit 200000) (tstamp 599208A8)
     (at 163.9779 95.8336 180)
     (path /59922857)
     (attr smd)
@@ -1131,7 +1131,7 @@
       (net 108 "Net-(R11-Pad1)"))
   )
 
-  (module PocketBeagle.pretty:RN0804 (layer Top) (tedit 200000) (tstamp 599208B5)
+  (module whitherbone.pretty:RN0804 (layer Top) (tedit 200000) (tstamp 599208B5)
     (at 155.1387 108.2542 90)
     (path /599226C7)
     (attr smd)
@@ -1161,7 +1161,7 @@
       (net 1 GND))
   )
 
-  (module PocketBeagle.pretty:B1_27 (layer Bottom) (tedit 59927130) (tstamp 59937E6F)
+  (module whitherbone.pretty:B1_27 (layer Bottom) (tedit 59927130) (tstamp 59937E6F)
     (at 170.5011 102.7536 270)
     (descr "TEST PAD")
     (tags "TEST PAD")
@@ -1182,7 +1182,7 @@
       (net 166 /JTAG_EMU0))
   )
 
-  (module PocketBeagle.pretty:B1_27 (layer Bottom) (tedit 59927130) (tstamp 59937E68)
+  (module whitherbone.pretty:B1_27 (layer Bottom) (tedit 59927130) (tstamp 59937E68)
     (at 172.0011 101.6286 270)
     (descr "TEST PAD")
     (tags "TEST PAD")
@@ -1203,7 +1203,7 @@
       (net 165 /JTAG_EMU1))
   )
 
-  (module PocketBeagle.pretty:B1_27 (layer Bottom) (tedit 59927130) (tstamp 59937E61)
+  (module whitherbone.pretty:B1_27 (layer Bottom) (tedit 59927130) (tstamp 59937E61)
     (at 172.0011 106.1286 270)
     (descr "TEST PAD")
     (tags "TEST PAD")
@@ -1224,7 +1224,7 @@
       (net 176 /JTAG_TRST#))
   )
 
-  (module PocketBeagle.pretty:B1_27 (layer Bottom) (tedit 59927130) (tstamp 59937E45)
+  (module whitherbone.pretty:B1_27 (layer Bottom) (tedit 59927130) (tstamp 59937E45)
     (at 170.5011 105.0036 270)
     (descr "TEST PAD")
     (tags "TEST PAD")
@@ -1245,7 +1245,7 @@
       (net 177 /JTAG_TMS))
   )
 
-  (module PocketBeagle.pretty:B1_27 (layer Bottom) (tedit 59927130) (tstamp 59937E3E)
+  (module whitherbone.pretty:B1_27 (layer Bottom) (tedit 59927130) (tstamp 59937E3E)
     (at 172.0011 108.3786 270)
     (descr "TEST PAD")
     (tags "TEST PAD")
@@ -1266,7 +1266,7 @@
       (net 179 /JTAG_TDO))
   )
 
-  (module PocketBeagle.pretty:B1_27 (layer Bottom) (tedit 59927130) (tstamp 59937E37)
+  (module whitherbone.pretty:B1_27 (layer Bottom) (tedit 59927130) (tstamp 59937E37)
     (at 170.5011 107.2536 270)
     (descr "TEST PAD")
     (tags "TEST PAD")
@@ -1287,7 +1287,7 @@
       (net 180 /JTAG_TDI))
   )
 
-  (module PocketBeagle.pretty:B1_27 (layer Bottom) (tedit 59927130) (tstamp 59937E30)
+  (module whitherbone.pretty:B1_27 (layer Bottom) (tedit 59927130) (tstamp 59937E30)
     (at 172.0011 103.8786 270)
     (descr "TEST PAD")
     (tags "TEST PAD")
@@ -1308,7 +1308,7 @@
       (net 178 /JTAG_TCK))
   )
 
-  (module PocketBeagle.pretty:B1_27 (layer Bottom) (tedit 59927130) (tstamp 59937E76)
+  (module whitherbone.pretty:B1_27 (layer Bottom) (tedit 59927130) (tstamp 59937E76)
     (at 145.6391 109.4226 180)
     (descr "TEST PAD")
     (tags "TEST PAD")
@@ -1329,7 +1329,7 @@
       (net 154 /N$9))
   )
 
-  (module PocketBeagle.pretty:B1_27 (layer Bottom) (tedit 59927130) (tstamp 59937E5A)
+  (module whitherbone.pretty:B1_27 (layer Bottom) (tedit 59927130) (tstamp 59937E5A)
     (at 137.8921 109.4226 180)
     (descr "TEST PAD")
     (tags "TEST PAD")
@@ -1350,7 +1350,7 @@
       (net 153 /N$11))
   )
 
-  (module PocketBeagle.pretty:B1_27 (layer Bottom) (tedit 59927130) (tstamp 59937E53)
+  (module whitherbone.pretty:B1_27 (layer Bottom) (tedit 59927130) (tstamp 59937E53)
     (at 135.6061 109.4226 180)
     (descr "TEST PAD")
     (tags "TEST PAD")
@@ -1371,7 +1371,7 @@
       (net 158 /N$10))
   )
 
-  (module PocketBeagle.pretty:B1_27 (layer Bottom) (tedit 59927130) (tstamp 59937E4C)
+  (module whitherbone.pretty:B1_27 (layer Bottom) (tedit 59927130) (tstamp 59937E4C)
     (at 148.1791 109.4226 180)
     (descr "TEST PAD")
     (tags "TEST PAD")
@@ -1392,7 +1392,7 @@
       (net 159 /N$7))
   )
 
-  (module PocketBeagle.pretty:B1_27 (layer Bottom) (tedit 59927130) (tstamp 59937E29)
+  (module whitherbone.pretty:B1_27 (layer Bottom) (tedit 59927130) (tstamp 59937E29)
     (at 150.7191 101.1676 180)
     (descr "TEST PAD")
     (tags "TEST PAD")
@@ -1413,7 +1413,7 @@
       (net 133 "/(U1.M2)EEPROM.WP"))
   )
 
-  (module PocketBeagle.pretty:FIDUCIAL_40MIL (layer Top) (tedit 59925435) (tstamp 5997FC72)
+  (module whitherbone.pretty:FIDUCIAL_40MIL (layer Top) (tedit 59925435) (tstamp 5997FC72)
     (at 171.7001 96.0788)
     (path /59920E2B)
     (attr smd)
@@ -1427,7 +1427,7 @@
       (net 186 "Net-(FUD1-PadP$1)") (solder_mask_margin 0.35) (clearance 0.35))
   )
 
-  (module PocketBeagle.pretty:FIDUCIAL_40MIL (layer Top) (tedit 59925435) (tstamp 5997FC6C)
+  (module whitherbone.pretty:FIDUCIAL_40MIL (layer Top) (tedit 59925435) (tstamp 5997FC6C)
     (at 170.9553 110.9357)
     (path /59920FBB)
     (attr smd)
@@ -1441,7 +1441,7 @@
       (net 184 "Net-(FUD3-PadP$1)") (solder_mask_margin 0.35) (clearance 0.35))
   )
 
-  (module PocketBeagle.pretty:FIDUCIAL_40MIL (layer Top) (tedit 59925435) (tstamp 5997FC66)
+  (module whitherbone.pretty:FIDUCIAL_40MIL (layer Top) (tedit 59925435) (tstamp 5997FC66)
     (at 130.6912 114.9217 270)
     (path /59920EF3)
     (attr smd)
@@ -1455,7 +1455,7 @@
       (net 185 "Net-(FUD2-PadP$1)") (solder_mask_margin 0.35) (clearance 0.35))
   )
 
-  (module "PocketBeagle.pretty:TH-2X18-(35MIL-DIA)-W_O-SILK" (layer Top) (tedit 59924F19) (tstamp 5997CFA6)
+  (module "whitherbone.pretty:TH-2X18-(35MIL-DIA)-W_O-SILK" (layer Top) (tedit 59924F19) (tstamp 5997CFA6)
     (at 148.5011 117.7036)
     (path /59921D67)
     (attr virtual)
@@ -1683,7 +1683,7 @@
       (net 6 VDD_5V))
   )
 
-  (module "PocketBeagle.pretty:TH-2X18-(35MIL-DIA)-W_O-SILK" (layer Top) (tedit 59924F19) (tstamp 5997CEEF)
+  (module "whitherbone.pretty:TH-2X18-(35MIL-DIA)-W_O-SILK" (layer Top) (tedit 59924F19) (tstamp 5997CEEF)
     (at 148.5011 92.3036)
     (path /59921E2F)
     (attr virtual)
@@ -1911,7 +1911,7 @@
       (net 13 "/(U1.P12)PWM1A"))
   )
 
-  (module "PocketBeagle.pretty:SON-6(TI)-DRY" (layer Top) (tedit 200000) (tstamp 59920658)
+  (module "whitherbone.pretty:SON-6(TI)-DRY" (layer Top) (tedit 200000) (tstamp 59920658)
     (at 131.0341 102.9456 90)
     (path /59923E37)
     (attr smd)
@@ -1938,7 +1938,7 @@
       (net 76 "/(U1.K15)USBC.D+"))
   )
 
-  (module PocketBeagle.pretty:CRYSTAL_5X3.2MM (layer Top) (tedit 200000) (tstamp 59920664)
+  (module whitherbone.pretty:CRYSTAL_5X3.2MM (layer Top) (tedit 200000) (tstamp 59920664)
     (at 128.6211 98.6276 90)
     (path /599269F7)
     (attr smd)
@@ -1960,7 +1960,7 @@
       (net 129 /OSC.OUT))
   )
 
-  (module "PocketBeagle.pretty:10118192-0001LF(MICRO-USB-B-AMPHENOL-FCI)" (layer Top) (tedit 200000) (tstamp 5992066F)
+  (module "whitherbone.pretty:10118192-0001LF(MICRO-USB-B-AMPHENOL-FCI)" (layer Top) (tedit 200000) (tstamp 5992066F)
     (at 122.4511 105.0036 270)
     (path /59926867)
     (attr smd)
@@ -2043,7 +2043,7 @@
       (net 10 CGND))
   )
 
-  (module "PocketBeagle.pretty:SC70(TI-DCK)" (layer Top) (tedit 200000) (tstamp 599206AC)
+  (module "whitherbone.pretty:SC70(TI-DCK)" (layer Top) (tedit 200000) (tstamp 599206AC)
     (at 124.6841 98.6276 90)
     (path /59923D6F)
     (attr smd)
@@ -2072,7 +2072,7 @@
     (pad 1 smd rect (at 0.6477 -1.09982 90) (size 0.39878 0.89916) (layers Top F.Paste F.Mask))
   )
 
-  (module PocketBeagle.pretty:OSD335X-BGA-256 locked (layer Top) (tedit 200000) (tstamp 59920700)
+  (module whitherbone.pretty:OSD335X-BGA-256 locked (layer Top) (tedit 200000) (tstamp 59920700)
     (at 143.0991 104.9776 90)
     (path /59923AB3)
     (attr smd)
@@ -2612,7 +2612,7 @@
       (net 44 "/(U1.A1)PWM0A"))
   )
 
-  (module PocketBeagle.pretty:0402 (layer Top) (tedit 200000) (tstamp 59920818)
+  (module whitherbone.pretty:0402 (layer Top) (tedit 200000) (tstamp 59920818)
     (at 131.4151 100.2786 180)
     (path /599206BF)
     (attr smd)
@@ -2638,7 +2638,7 @@
       (net 130 /OSC.GND))
   )
 
-  (module PocketBeagle.pretty:0402 (layer Top) (tedit 200000) (tstamp 59920821)
+  (module whitherbone.pretty:0402 (layer Top) (tedit 200000) (tstamp 59920821)
     (at 156.7389 105.13 90)
     (path /5992084F)
     (attr smd)
@@ -2664,7 +2664,7 @@
       (net 7 VDD_3V3B))
   )
 
-  (module PocketBeagle.pretty:0603 (layer Top) (tedit 200000) (tstamp 5992082A)
+  (module whitherbone.pretty:0603 (layer Top) (tedit 200000) (tstamp 5992082A)
     (at 155.9007 110.2354 180)
     (path /59920917)
     (attr smd)
@@ -2690,7 +2690,7 @@
       (net 7 VDD_3V3B))
   )
 
-  (module PocketBeagle.pretty:0402 (layer Top) (tedit 200000) (tstamp 59920833)
+  (module whitherbone.pretty:0402 (layer Top) (tedit 200000) (tstamp 59920833)
     (at 128.4941 105.8666)
     (path /59922217)
     (attr smd)
@@ -2716,7 +2716,7 @@
       (net 1 GND))
   )
 
-  (module PocketBeagle.pretty:0402 (layer Top) (tedit 200000) (tstamp 59920865)
+  (module whitherbone.pretty:0402 (layer Top) (tedit 200000) (tstamp 59920865)
     (at 131.4151 96.9766 180)
     (path /599205F7)
     (attr smd)
@@ -2742,7 +2742,7 @@
       (net 130 /OSC.GND))
   )
 
-  (module PocketBeagle.pretty:0402 (layer Top) (tedit 200000) (tstamp 5992086E)
+  (module whitherbone.pretty:0402 (layer Top) (tedit 200000) (tstamp 5992086E)
     (at 131.4151 98.6276 90)
     (path /5992214F)
     (attr smd)
@@ -2768,7 +2768,7 @@
       (net 129 /OSC.OUT))
   )
 
-  (module PocketBeagle.pretty:0603 (layer Top) (tedit 200000) (tstamp 59920877)
+  (module whitherbone.pretty:0603 (layer Top) (tedit 200000) (tstamp 59920877)
     (at 127.7321 102.9456)
     (path /59920C37)
     (attr smd)
@@ -2794,7 +2794,7 @@
       (net 12 VBUS.RAW))
   )
 
-  (module PocketBeagle.pretty:0402 (layer Top) (tedit 200000) (tstamp 59920880)
+  (module whitherbone.pretty:0402 (layer Top) (tedit 200000) (tstamp 59920880)
     (at 129.7641 102.9456 90)
     (path /59920787)
     (attr smd)
@@ -2820,7 +2820,7 @@
       (net 5 USB_DC))
   )
 
-  (module PocketBeagle.pretty:0402 (layer Top) (tedit 200000) (tstamp 59920889)
+  (module whitherbone.pretty:0402 (layer Top) (tedit 200000) (tstamp 59920889)
     (at 124.6841 93.5476)
     (path /59922087)
     (attr smd)
@@ -2846,7 +2846,7 @@
       (net 1 GND))
   )
 
-  (module PocketBeagle.pretty:0402 (layer Top) (tedit 200000) (tstamp 59920892)
+  (module whitherbone.pretty:0402 (layer Top) (tedit 200000) (tstamp 59920892)
     (at 124.6841 96.5956 180)
     (path /5992052F)
     (attr smd)
@@ -2872,7 +2872,7 @@
       (net 4 VDD_RTC))
   )
 
-  (module PocketBeagle.pretty:0603 (layer Top) (tedit 200000) (tstamp 599208C2)
+  (module whitherbone.pretty:0603 (layer Top) (tedit 200000) (tstamp 599208C2)
     (at 171.7503 114.1978 180)
     (path /59920CFF)
     (attr smd)
@@ -2898,7 +2898,7 @@
       (net 10 CGND))
   )
 
-  (module PocketBeagle.pretty:0402 (layer Top) (tedit 200000) (tstamp 59920961)
+  (module whitherbone.pretty:0402 (layer Top) (tedit 200000) (tstamp 59920961)
     (at 167.5593 114.1978)
     (path /599209DF)
     (attr smd)
@@ -2924,7 +2924,7 @@
       (net 60 "/(U1.B7)VREF+"))
   )
 
-  (module PocketBeagle.pretty:0402 (layer Top) (tedit 200000) (tstamp 5992096A)
+  (module whitherbone.pretty:0402 (layer Top) (tedit 200000) (tstamp 5992096A)
     (at 162.3777 113.893 180)
     (path /5992291F)
     (attr smd)
@@ -3057,7 +3057,7 @@
   (gr_arc (start 166.0011 112.5036) (end 166.0011 122.5036) (angle -90) (layer Dwgs.User) (width 0.15) (tstamp 2161710))
   (gr_line (start 176.0011 112.5036) (end 176.0011 97.5036) (layer Dwgs.User) (width 0.15) (tstamp 2161CC0))
   (gr_arc (start 166.0011 97.5036) (end 176.0011 97.5036) (angle -90) (layer Dwgs.User) (width 0.15) (tstamp 21621B0))
-  (gr_text "PocketBeagle Rev A2a" (at 148.5093 89.255) (layer F.SilkS) (tstamp 2162760)
+  (gr_text "whitherbone Rev A2a" (at 148.5093 89.255) (layer F.SilkS) (tstamp 2162760)
     (effects (font (size 1.2065 1.2065) (thickness 0.1905)) (justify bottom))
   )
   (gr_text beagleboard.org/pocket (at 148.5093 121.6654) (layer F.SilkS) (tstamp 2162E50)
