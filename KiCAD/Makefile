@@ -1,6 +1,6 @@
 # Create fab files.
 
-PocketBeagle-fab.zip:
+witherbone-fab.zip:
 
 %-fab.zip : %-fab.kicad_pcb
 	python ../kicad-scripts/kicad-fab.py $< plot/
