@@ -20,8 +20,8 @@ Text Notes 7420 13530 0    67   ~ 0
 <-- SYS_BOOT0\n<-- SYS_BOOT1\n<-- SYS_BOOT2\n<-- SYS_BOOT3\n<-- SYS_BOOT4\n<-- SYS_BOOT5\n<-- SYS_BOOT6\n<-- SYS_BOOT7\n<-- SYS_BOOT8\n<-- SYS_BOOT9\n<-- SYS_BOOT10\n<-- SYS_BOOT11\n<-- SYS_BOOT12\n<-- SYS_BOOT13\n<-- SYS_BOOT14\n<-- SYS_BOOT15
 Text Notes 21050 11350 0    254  ~ 0
 USB Device
-Text Notes 4650 10800 0    254  ~ 0
-BeagleBone Black\nConfiguration
+Text Notes 4550 10550 0    254  ~ 0
+Boot Configuration
 Text Notes 25400 11500 0    254  ~ 0
 USER LEDs
 Text Notes 22100 7050 0    254  ~ 0
