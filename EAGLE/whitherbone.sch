@@ -19914,8 +19914,8 @@ of the large aluminum cap</text>
 <instance part="R92" gate="G$1" x="789.94" y="119.38" rot="R180"/>
 <instance part="R96" gate="G$1" x="789.94" y="109.22" rot="R180"/>
 <instance part="R100" gate="G$1" x="789.94" y="99.06" rot="R180"/>
-<instance part="R41" gate="G$1" x="617.22" y="474.98" rot="R270"/>
-<instance part="R42" gate="G$1" x="627.38" y="474.98" rot="R270"/>
+<instance part="R41" gate="G$1" x="601.98" y="436.88" rot="R270"/>
+<instance part="R42" gate="G$1" x="612.14" y="436.88" rot="R270"/>
 <instance part="Q2" gate="G$1" x="33.02" y="502.92" rot="R270"/>
 <instance part="C6" gate="G$1" x="25.4" y="495.3" smashed="yes" rot="R270">
 <attribute name="NAME" x="26.035" y="494.284" size="1.778" layer="95" rot="R270"/>
@@ -19941,7 +19941,7 @@ of the large aluminum cap</text>
 <instance part="SUPPLY13" gate="G$1" x="779.78" y="457.2" rot="R270"/>
 <instance part="SUPPLY22" gate="G$1" x="690.88" y="662.94"/>
 <instance part="GND12" gate="1" x="690.88" y="637.54"/>
-<instance part="GND23" gate="1" x="607.06" y="505.46"/>
+<instance part="GND23" gate="1" x="609.6" y="457.2"/>
 <instance part="SUPPLY39" gate="G$1" x="726.44" y="541.02" rot="R270"/>
 <instance part="R24" gate="G$1" x="789.94" y="462.28" rot="R90"/>
 <instance part="GND10" gate="1" x="789.94" y="452.12"/>
@@ -20028,8 +20028,8 @@ of the large aluminum cap</text>
 </instance>
 <instance part="R26" gate="G$1" x="50.8" y="457.2" rot="R180"/>
 <instance part="SUPPLY15" gate="G$1" x="27.94" y="457.2" rot="R90"/>
-<instance part="R27" gate="G$1" x="22.86" y="424.18" rot="R180"/>
-<instance part="GND8" gate="1" x="10.16" y="424.18" rot="R270"/>
+<instance part="R27" gate="G$1" x="162.56" y="447.04"/>
+<instance part="GND8" gate="1" x="172.72" y="447.04" rot="R90"/>
 <instance part="GND15" gate="1" x="480.06" y="645.16" rot="MR0"/>
 <instance part="R19" gate="G$1" x="378.46" y="642.62" rot="R270"/>
 <instance part="GND6" gate="1" x="378.46" y="632.46"/>
@@ -20039,7 +20039,7 @@ of the large aluminum cap</text>
 <instance part="GND21" gate="1" x="721.36" y="81.28"/>
 <instance part="TP1" gate="G$1" x="703.58" y="109.22" rot="R90"/>
 <instance part="SUPPLY41" gate="G$1" x="525.78" y="304.8"/>
-<instance part="SUPPLY30" gate="G$1" x="622.3" y="487.68"/>
+<instance part="SUPPLY30" gate="G$1" x="607.06" y="447.04"/>
 <instance part="SUPPLY23" gate="G$1" x="251.46" y="568.96"/>
 <instance part="SUPPLY2" gate="G$1" x="449.58" y="129.54" rot="R90"/>
 <instance part="GND68" gate="1" x="604.52" y="548.64"/>
@@ -20051,9 +20051,9 @@ of the large aluminum cap</text>
 <attribute name="NAME" x="228.6" y="557.53" size="1.778" layer="95"/>
 <attribute name="VALUE" x="220.98" y="554.99" size="1.778" layer="96"/>
 </instance>
-<instance part="POWER" gate="G$1" x="614.68" y="513.08" smashed="yes">
-<attribute name="NAME" x="612.14" y="519.43" size="1.778" layer="95"/>
-<attribute name="VALUE" x="604.52" y="516.89" size="1.778" layer="96"/>
+<instance part="POWER" gate="G$1" x="617.22" y="464.82" smashed="yes">
+<attribute name="NAME" x="614.68" y="471.17" size="1.778" layer="95"/>
+<attribute name="VALUE" x="607.06" y="468.63" size="1.778" layer="96"/>
 </instance>
 <instance part="IC7" gate="G$1" x="304.8" y="33.02"/>
 <instance part="IC8" gate="G$1" x="340.36" y="33.02"/>
@@ -20292,9 +20292,9 @@ of the large aluminum cap</text>
 <attribute name="VALUE" x="364.236" y="346.329" size="1.778" layer="96"/>
 </instance>
 <instance part="GND103" gate="1" x="360.68" y="342.9" rot="MR90"/>
-<instance part="R54" gate="G$1" x="160.02" y="439.42" smashed="yes" rot="R180">
-<attribute name="NAME" x="153.67" y="439.674" size="1.27" layer="95"/>
-<attribute name="VALUE" x="163.068" y="439.674" size="1.27" layer="96"/>
+<instance part="R54" gate="G$1" x="40.64" y="340.36" smashed="yes" rot="R180">
+<attribute name="NAME" x="34.29" y="340.614" size="1.27" layer="95"/>
+<attribute name="VALUE" x="43.688" y="340.614" size="1.27" layer="96"/>
 </instance>
 <instance part="BT" gate="G$1" x="246.38" y="269.24"/>
 <instance part="WL" gate="G$1" x="218.44" y="269.24"/>
@@ -20476,11 +20476,11 @@ of the large aluminum cap</text>
 <pinref part="X4" gate="G$1" pin="GND"/>
 </segment>
 <segment>
-<wire x1="609.6" y1="513.08" x2="607.06" y2="513.08" width="0.1524" layer="91"/>
-<wire x1="607.06" y1="513.08" x2="607.06" y2="510.54" width="0.1524" layer="91"/>
-<wire x1="607.06" y1="510.54" x2="607.06" y2="508" width="0.1524" layer="91"/>
-<wire x1="609.6" y1="510.54" x2="607.06" y2="510.54" width="0.1524" layer="91"/>
-<junction x="607.06" y="510.54"/>
+<wire x1="612.14" y1="464.82" x2="609.6" y2="464.82" width="0.1524" layer="91"/>
+<wire x1="609.6" y1="464.82" x2="609.6" y2="462.28" width="0.1524" layer="91"/>
+<wire x1="609.6" y1="462.28" x2="609.6" y2="459.74" width="0.1524" layer="91"/>
+<wire x1="612.14" y1="462.28" x2="609.6" y2="462.28" width="0.1524" layer="91"/>
+<junction x="609.6" y="462.28"/>
 <pinref part="GND23" gate="1" pin="GND"/>
 <pinref part="POWER" gate="G$1" pin="1"/>
 <pinref part="POWER" gate="G$1" pin="2"/>
@@ -20648,7 +20648,7 @@ of the large aluminum cap</text>
 <segment>
 <pinref part="GND8" gate="1" pin="GND"/>
 <pinref part="R27" gate="G$1" pin="2"/>
-<wire x1="12.7" y1="424.18" x2="17.78" y2="424.18" width="0.1524" layer="91"/>
+<wire x1="170.18" y1="447.04" x2="167.64" y2="447.04" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="GND15" gate="1" pin="GND"/>
@@ -22418,17 +22418,16 @@ of the large aluminum cap</text>
 </net>
 <net name="I2C0_SDA" class="0">
 <segment>
-<wire x1="640.08" y1="518.16" x2="635" y2="518.16" width="0.1524" layer="91"/>
-<wire x1="635" y1="518.16" x2="635" y2="508" width="0.1524" layer="91"/>
-<wire x1="635" y1="508" x2="640.08" y2="508" width="0.1524" layer="91"/>
-<wire x1="635" y1="508" x2="635" y2="462.28" width="0.1524" layer="91"/>
-<wire x1="635" y1="462.28" x2="627.38" y2="462.28" width="0.1524" layer="91"/>
-<junction x="635" y="508"/>
-<label x="599.44" y="462.28" size="1.778" layer="95"/>
+<wire x1="642.62" y1="416.56" x2="637.54" y2="416.56" width="0.1524" layer="91"/>
+<wire x1="637.54" y1="416.56" x2="637.54" y2="419.1" width="0.1524" layer="91"/>
+<wire x1="637.54" y1="419.1" x2="642.62" y2="419.1" width="0.1524" layer="91"/>
+<wire x1="637.54" y1="419.1" x2="612.14" y2="424.18" width="0.1524" layer="91"/>
+<junction x="637.54" y="419.1"/>
+<label x="584.2" y="424.18" size="1.778" layer="95"/>
 <pinref part="R42" gate="G$1" pin="2"/>
-<wire x1="627.38" y1="462.28" x2="596.9" y2="462.28" width="0.1524" layer="91"/>
-<wire x1="627.38" y1="469.9" x2="627.38" y2="462.28" width="0.1524" layer="91"/>
-<junction x="627.38" y="462.28"/>
+<wire x1="612.14" y1="424.18" x2="576.58" y2="424.18" width="0.1524" layer="91"/>
+<wire x1="612.14" y1="431.8" x2="612.14" y2="424.18" width="0.1524" layer="91"/>
+<junction x="612.14" y="424.18"/>
 </segment>
 <segment>
 <label x="195.58" y="137.16" size="1.778" layer="95" rot="R90"/>
@@ -22438,17 +22437,16 @@ of the large aluminum cap</text>
 </net>
 <net name="I2C0_SCL" class="0">
 <segment>
-<wire x1="640.08" y1="520.7" x2="632.46" y2="520.7" width="0.1524" layer="91"/>
-<wire x1="632.46" y1="520.7" x2="632.46" y2="510.54" width="0.1524" layer="91"/>
-<wire x1="632.46" y1="510.54" x2="640.08" y2="510.54" width="0.1524" layer="91"/>
-<wire x1="632.46" y1="510.54" x2="632.46" y2="464.82" width="0.1524" layer="91"/>
-<wire x1="632.46" y1="464.82" x2="617.22" y2="464.82" width="0.1524" layer="91"/>
-<junction x="632.46" y="510.54"/>
-<label x="599.44" y="464.82" size="1.778" layer="95"/>
+<wire x1="642.62" y1="429.26" x2="635" y2="429.26" width="0.1524" layer="91"/>
+<wire x1="635" y1="429.26" x2="635" y2="426.72" width="0.1524" layer="91"/>
+<wire x1="635" y1="426.72" x2="642.62" y2="426.72" width="0.1524" layer="91"/>
+<wire x1="635" y1="426.72" x2="601.98" y2="426.72" width="0.1524" layer="91"/>
+<junction x="635" y="426.72"/>
+<label x="584.2" y="426.72" size="1.778" layer="95"/>
 <pinref part="R41" gate="G$1" pin="2"/>
-<wire x1="617.22" y1="464.82" x2="596.9" y2="464.82" width="0.1524" layer="91"/>
-<wire x1="617.22" y1="469.9" x2="617.22" y2="464.82" width="0.1524" layer="91"/>
-<junction x="617.22" y="464.82"/>
+<wire x1="601.98" y1="426.72" x2="576.58" y2="426.72" width="0.1524" layer="91"/>
+<wire x1="601.98" y1="431.8" x2="601.98" y2="426.72" width="0.1524" layer="91"/>
+<junction x="601.98" y="426.72"/>
 </segment>
 <segment>
 <label x="193.04" y="137.16" size="1.778" layer="95" rot="R90"/>
@@ -22544,8 +22542,8 @@ of the large aluminum cap</text>
 </net>
 <net name="USB.HOST.D+" class="0">
 <segment>
-<wire x1="53.34" y1="431.8" x2="27.94" y2="431.8" width="0.1524" layer="91"/>
-<label x="30.48" y="431.8" size="1.778" layer="95"/>
+<wire x1="129.54" y1="449.58" x2="157.48" y2="449.58" width="0.1524" layer="91"/>
+<label x="132.08" y="449.58" size="1.778" layer="95"/>
 </segment>
 <segment>
 <wire x1="485.14" y1="652.78" x2="441.96" y2="652.78" width="0.1524" layer="91"/>
@@ -22560,8 +22558,8 @@ of the large aluminum cap</text>
 </net>
 <net name="USB.HOST.D-" class="0">
 <segment>
-<wire x1="53.34" y1="429.26" x2="27.94" y2="429.26" width="0.1524" layer="91"/>
-<label x="30.48" y="429.26" size="1.778" layer="95"/>
+<wire x1="129.54" y1="452.12" x2="157.48" y2="452.12" width="0.1524" layer="91"/>
+<label x="132.08" y="452.12" size="1.778" layer="95"/>
 </segment>
 <segment>
 <wire x1="485.14" y1="655.32" x2="439.42" y2="655.32" width="0.1524" layer="91"/>
@@ -22601,16 +22599,16 @@ of the large aluminum cap</text>
 </net>
 <net name="PWR_BUT" class="0">
 <segment>
-<wire x1="640.08" y1="523.24" x2="629.92" y2="523.24" width="0.1524" layer="91"/>
-<wire x1="629.92" y1="523.24" x2="629.92" y2="510.54" width="0.1524" layer="91"/>
-<wire x1="629.92" y1="510.54" x2="622.3" y2="510.54" width="0.1524" layer="91"/>
-<wire x1="622.3" y1="510.54" x2="622.3" y2="513.08" width="0.1524" layer="91"/>
-<wire x1="622.3" y1="513.08" x2="619.76" y2="513.08" width="0.1524" layer="91"/>
-<wire x1="619.76" y1="510.54" x2="622.3" y2="510.54" width="0.1524" layer="91"/>
-<junction x="622.3" y="510.54"/>
-<wire x1="629.92" y1="523.24" x2="607.06" y2="523.24" width="0.1524" layer="91"/>
-<junction x="629.92" y="523.24"/>
-<label x="609.6" y="523.24" size="1.778" layer="95"/>
+<wire x1="642.62" y1="474.98" x2="632.46" y2="474.98" width="0.1524" layer="91"/>
+<wire x1="632.46" y1="474.98" x2="632.46" y2="462.28" width="0.1524" layer="91"/>
+<wire x1="632.46" y1="462.28" x2="624.84" y2="462.28" width="0.1524" layer="91"/>
+<wire x1="624.84" y1="462.28" x2="624.84" y2="464.82" width="0.1524" layer="91"/>
+<wire x1="624.84" y1="464.82" x2="622.3" y2="464.82" width="0.1524" layer="91"/>
+<wire x1="622.3" y1="462.28" x2="624.84" y2="462.28" width="0.1524" layer="91"/>
+<junction x="624.84" y="462.28"/>
+<wire x1="632.46" y1="474.98" x2="609.6" y2="474.98" width="0.1524" layer="91"/>
+<junction x="632.46" y="474.98"/>
+<label x="612.14" y="474.98" size="1.778" layer="95"/>
 <pinref part="POWER" gate="G$1" pin="3"/>
 <pinref part="POWER" gate="G$1" pin="4"/>
 </segment>
@@ -22707,13 +22705,12 @@ of the large aluminum cap</text>
 </segment>
 <segment>
 <pinref part="R42" gate="G$1" pin="1"/>
-<wire x1="627.38" y1="480.06" x2="627.38" y2="482.6" width="0.1524" layer="91"/>
-<wire x1="627.38" y1="482.6" x2="622.3" y2="482.6" width="0.1524" layer="91"/>
-<wire x1="622.3" y1="482.6" x2="622.3" y2="485.14" width="0.1524" layer="91"/>
+<wire x1="612.14" y1="441.96" x2="612.14" y2="444.5" width="0.1524" layer="91"/>
+<wire x1="612.14" y1="444.5" x2="607.06" y2="444.5" width="0.1524" layer="91"/>
 <pinref part="R41" gate="G$1" pin="1"/>
-<wire x1="617.22" y1="480.06" x2="617.22" y2="482.6" width="0.1524" layer="91"/>
-<wire x1="617.22" y1="482.6" x2="622.3" y2="482.6" width="0.1524" layer="91"/>
-<junction x="622.3" y="482.6"/>
+<wire x1="601.98" y1="441.96" x2="601.98" y2="444.5" width="0.1524" layer="91"/>
+<wire x1="601.98" y1="444.5" x2="607.06" y2="444.5" width="0.1524" layer="91"/>
+<junction x="607.06" y="444.5"/>
 <pinref part="SUPPLY30" gate="G$1" pin="VDD_3V3B"/>
 </segment>
 <segment>
@@ -23150,62 +23147,62 @@ of the large aluminum cap</text>
 </net>
 <net name="GPIO1_28" class="0">
 <segment>
-<wire x1="132.08" y1="464.82" x2="154.94" y2="464.82" width="0.1524" layer="91"/>
-<label x="134.62" y="464.82" size="1.778" layer="95"/>
+<wire x1="12.7" y1="365.76" x2="35.56" y2="365.76" width="0.1524" layer="91"/>
+<label x="15.24" y="365.76" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="GPIO1_29" class="0">
 <segment>
-<wire x1="132.08" y1="462.28" x2="154.94" y2="462.28" width="0.1524" layer="91"/>
-<label x="134.62" y="462.28" size="1.778" layer="95"/>
+<wire x1="12.7" y1="363.22" x2="35.56" y2="363.22" width="0.1524" layer="91"/>
+<label x="15.24" y="363.22" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="GPIO2_1" class="0">
 <segment>
-<wire x1="132.08" y1="459.74" x2="154.94" y2="459.74" width="0.1524" layer="91"/>
-<label x="134.62" y="459.74" size="1.778" layer="95"/>
+<wire x1="12.7" y1="360.68" x2="35.56" y2="360.68" width="0.1524" layer="91"/>
+<label x="15.24" y="360.68" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="GPIO0_26" class="0">
 <segment>
-<wire x1="132.08" y1="457.2" x2="154.94" y2="457.2" width="0.1524" layer="91"/>
-<label x="134.62" y="457.2" size="1.778" layer="95"/>
+<wire x1="12.7" y1="358.14" x2="35.56" y2="358.14" width="0.1524" layer="91"/>
+<label x="15.24" y="358.14" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="GPIO0_27" class="0">
 <segment>
-<wire x1="132.08" y1="454.66" x2="154.94" y2="454.66" width="0.1524" layer="91"/>
-<label x="134.62" y="454.66" size="1.778" layer="95"/>
+<wire x1="12.7" y1="355.6" x2="35.56" y2="355.6" width="0.1524" layer="91"/>
+<label x="15.24" y="355.6" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="GPIO1_12" class="0">
 <segment>
-<wire x1="132.08" y1="452.12" x2="154.94" y2="452.12" width="0.1524" layer="91"/>
-<label x="134.62" y="452.12" size="1.778" layer="95"/>
+<wire x1="12.7" y1="353.06" x2="35.56" y2="353.06" width="0.1524" layer="91"/>
+<label x="15.24" y="353.06" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="GPIO1_13" class="0">
 <segment>
-<wire x1="132.08" y1="449.58" x2="154.94" y2="449.58" width="0.1524" layer="91"/>
-<label x="134.62" y="449.58" size="1.778" layer="95"/>
+<wire x1="12.7" y1="350.52" x2="35.56" y2="350.52" width="0.1524" layer="91"/>
+<label x="15.24" y="350.52" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="GPIO1_14" class="0">
 <segment>
-<wire x1="132.08" y1="447.04" x2="154.94" y2="447.04" width="0.1524" layer="91"/>
-<label x="134.62" y="447.04" size="1.778" layer="95"/>
+<wire x1="12.7" y1="347.98" x2="35.56" y2="347.98" width="0.1524" layer="91"/>
+<label x="15.24" y="347.98" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="GPIO1_15" class="0">
 <segment>
-<wire x1="132.08" y1="444.5" x2="154.94" y2="444.5" width="0.1524" layer="91"/>
-<label x="134.62" y="444.5" size="1.778" layer="95"/>
+<wire x1="12.7" y1="345.44" x2="35.56" y2="345.44" width="0.1524" layer="91"/>
+<label x="15.24" y="345.44" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="USB1_OC#" class="0">
 <segment>
-<wire x1="132.08" y1="441.96" x2="190.5" y2="441.96" width="0.1524" layer="91"/>
-<label x="134.62" y="441.96" size="1.778" layer="95"/>
+<wire x1="12.7" y1="342.9" x2="71.12" y2="342.9" width="0.1524" layer="91"/>
+<label x="15.24" y="342.9" size="1.778" layer="95"/>
 </segment>
 <segment>
 <wire x1="401.32" y1="650.24" x2="408.94" y2="650.24" width="0.1524" layer="91"/>
@@ -23220,34 +23217,34 @@ of the large aluminum cap</text>
 </net>
 <net name="GPIO1_16.SIP" class="0">
 <segment>
-<wire x1="132.08" y1="439.42" x2="154.94" y2="439.42" width="0.1524" layer="91"/>
-<label x="134.62" y="439.42" size="1.778" layer="95"/>
+<wire x1="12.7" y1="340.36" x2="35.56" y2="340.36" width="0.1524" layer="91"/>
+<label x="15.24" y="340.36" size="1.778" layer="95"/>
 <pinref part="R54" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="GPIO1_16" class="0">
 <segment>
-<wire x1="165.1" y1="439.42" x2="190.5" y2="439.42" width="0.1524" layer="91"/>
-<label x="172.72" y="439.42" size="1.778" layer="95"/>
+<wire x1="45.72" y1="340.36" x2="71.12" y2="340.36" width="0.1524" layer="91"/>
+<label x="53.34" y="340.36" size="1.778" layer="95"/>
 <pinref part="R54" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="GPIO2_0.SIP" class="0">
 <segment>
-<label x="134.62" y="426.72" size="1.778" layer="95"/>
-<wire x1="132.08" y1="426.72" x2="154.94" y2="426.72" width="0.1524" layer="91"/>
+<label x="15.24" y="327.66" size="1.778" layer="95"/>
+<wire x1="12.7" y1="327.66" x2="35.56" y2="327.66" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="GPIO1_17" class="0">
 <segment>
-<wire x1="132.08" y1="436.88" x2="190.5" y2="436.88" width="0.1524" layer="91"/>
-<label x="134.62" y="436.88" size="1.778" layer="95"/>
+<wire x1="12.7" y1="337.82" x2="71.12" y2="337.82" width="0.1524" layer="91"/>
+<label x="15.24" y="337.82" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="HDMICLK_DIS#" class="0">
 <segment>
-<wire x1="132.08" y1="434.34" x2="190.5" y2="434.34" width="0.1524" layer="91"/>
-<label x="134.62" y="434.34" size="1.778" layer="95"/>
+<wire x1="12.7" y1="335.28" x2="71.12" y2="335.28" width="0.1524" layer="91"/>
+<label x="15.24" y="335.28" size="1.778" layer="95"/>
 </segment>
 <segment>
 <wire x1="241.3" y1="474.98" x2="276.86" y2="474.98" width="0.1524" layer="91"/>
@@ -23257,8 +23254,8 @@ of the large aluminum cap</text>
 </net>
 <net name="HDMI_INT" class="0">
 <segment>
-<wire x1="132.08" y1="429.26" x2="190.5" y2="429.26" width="0.1524" layer="91"/>
-<label x="134.62" y="429.26" size="1.778" layer="95"/>
+<wire x1="12.7" y1="330.2" x2="71.12" y2="330.2" width="0.1524" layer="91"/>
+<label x="15.24" y="330.2" size="1.778" layer="95"/>
 </segment>
 <segment>
 <wire x1="198.12" y1="132.08" x2="198.12" y2="157.48" width="0.1524" layer="91"/>
@@ -23342,13 +23339,13 @@ of the large aluminum cap</text>
 <net name="N$20" class="0">
 <segment>
 <pinref part="R27" gate="G$1" pin="1"/>
-<wire x1="27.94" y1="424.18" x2="53.34" y2="424.18" width="0.1524" layer="91"/>
+<wire x1="157.48" y1="447.04" x2="129.54" y2="447.04" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="USB1_DRVVBUS" class="0">
 <segment>
-<wire x1="53.34" y1="421.64" x2="27.94" y2="421.64" width="0.1524" layer="91"/>
-<label x="30.48" y="421.64" size="1.778" layer="95"/>
+<wire x1="129.54" y1="441.96" x2="157.48" y2="441.96" width="0.1524" layer="91"/>
+<label x="132.08" y="441.96" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="IC12" gate="G$1" pin="EN#"/>
@@ -23773,8 +23770,8 @@ of the large aluminum cap</text>
 </net>
 <net name="USB1_VBUS" class="0">
 <segment>
-<wire x1="53.34" y1="419.1" x2="27.94" y2="419.1" width="0.1524" layer="91"/>
-<label x="30.48" y="419.1" size="1.778" layer="95"/>
+<wire x1="129.54" y1="454.66" x2="157.48" y2="454.66" width="0.1524" layer="91"/>
+<label x="132.08" y="454.66" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="FB4" gate="G$1" pin="P$2"/>
