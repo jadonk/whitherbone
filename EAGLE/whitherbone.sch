@@ -22351,6 +22351,7 @@ of the large aluminum cap</text>
 <segment>
 <wire x1="441.96" y1="480.06" x2="416.56" y2="480.06" width="0.1524" layer="91"/>
 <label x="416.56" y="480.06" size="1.778" layer="95"/>
+<pinref part="U1" gate="D" pin="MII1_RX_CLK"/>
 </segment>
 <segment>
 <label x="215.9" y="220.98" size="1.778" layer="95"/>
@@ -22362,6 +22363,7 @@ of the large aluminum cap</text>
 <segment>
 <wire x1="441.96" y1="472.44" x2="416.56" y2="472.44" width="0.1524" layer="91"/>
 <label x="416.56" y="472.44" size="1.778" layer="95"/>
+<pinref part="U1" gate="D" pin="MII1_RXD2"/>
 </segment>
 <segment>
 <wire x1="60.96" y1="243.84" x2="109.22" y2="243.84" width="0.1524" layer="91"/>
@@ -22373,6 +22375,7 @@ of the large aluminum cap</text>
 <segment>
 <wire x1="441.96" y1="469.9" x2="416.56" y2="469.9" width="0.1524" layer="91"/>
 <label x="416.56" y="469.9" size="1.778" layer="95"/>
+<pinref part="U1" gate="D" pin="MII1_RXD3"/>
 </segment>
 <segment>
 <wire x1="60.96" y1="231.14" x2="109.22" y2="231.14" width="0.1524" layer="91"/>
@@ -22384,6 +22387,7 @@ of the large aluminum cap</text>
 <segment>
 <wire x1="441.96" y1="457.2" x2="416.56" y2="457.2" width="0.1524" layer="91"/>
 <label x="416.56" y="457.2" size="1.778" layer="95"/>
+<pinref part="U1" gate="D" pin="MDC"/>
 </segment>
 <segment>
 <wire x1="60.96" y1="228.6" x2="101.6" y2="228.6" width="0.1524" layer="91"/>
@@ -22399,6 +22403,7 @@ of the large aluminum cap</text>
 <segment>
 <wire x1="441.96" y1="454.66" x2="416.56" y2="454.66" width="0.1524" layer="91"/>
 <label x="416.56" y="454.66" size="1.778" layer="95"/>
+<pinref part="U1" gate="D" pin="MDIO"/>
 </segment>
 <segment>
 <wire x1="60.96" y1="233.68" x2="91.44" y2="233.68" width="0.1524" layer="91"/>
@@ -23301,6 +23306,7 @@ of the large aluminum cap</text>
 <pinref part="R34" gate="G$1" pin="2"/>
 <wire x1="502.92" y1="459.74" x2="525.78" y2="459.74" width="0.1524" layer="91"/>
 <label x="505.46" y="459.74" size="1.778" layer="95"/>
+<pinref part="U1" gate="D" pin="LCD_PCLK"/>
 </segment>
 </net>
 <net name="MCU.LCD.VS" class="0">
@@ -23308,6 +23314,7 @@ of the large aluminum cap</text>
 <pinref part="R35" gate="G$1" pin="2"/>
 <wire x1="502.92" y1="457.2" x2="525.78" y2="457.2" width="0.1524" layer="91"/>
 <label x="505.46" y="457.2" size="1.778" layer="95"/>
+<pinref part="U1" gate="D" pin="LCD_VSYNC"/>
 </segment>
 </net>
 <net name="MCU.LCD.HS" class="0">
@@ -23315,6 +23322,7 @@ of the large aluminum cap</text>
 <pinref part="R37" gate="G$1" pin="2"/>
 <wire x1="502.92" y1="454.66" x2="525.78" y2="454.66" width="0.1524" layer="91"/>
 <label x="505.46" y="454.66" size="1.778" layer="95"/>
+<pinref part="U1" gate="D" pin="LCD_HSYNC"/>
 </segment>
 </net>
 <net name="MCU.LCD.EN" class="0">
@@ -23322,6 +23330,7 @@ of the large aluminum cap</text>
 <pinref part="R39" gate="G$1" pin="2"/>
 <wire x1="502.92" y1="452.12" x2="525.78" y2="452.12" width="0.1524" layer="91"/>
 <label x="505.46" y="452.12" size="1.778" layer="95"/>
+<pinref part="U1" gate="D" pin="LCD_AC_BIAS_EN"/>
 </segment>
 </net>
 <net name="N$45" class="0">
@@ -24170,6 +24179,7 @@ of the large aluminum cap</text>
 <segment>
 <wire x1="441.96" y1="464.82" x2="416.56" y2="464.82" width="0.1524" layer="91"/>
 <label x="416.56" y="464.82" size="1.778" layer="95"/>
+<pinref part="U1" gate="D" pin="MII1_RX_DV"/>
 </segment>
 <segment>
 <wire x1="15.24" y1="297.18" x2="58.42" y2="297.18" width="0.1524" layer="91"/>
@@ -24181,6 +24191,7 @@ of the large aluminum cap</text>
 <segment>
 <wire x1="441.96" y1="492.76" x2="416.56" y2="492.76" width="0.1524" layer="91"/>
 <label x="416.56" y="492.76" size="1.778" layer="95"/>
+<pinref part="U1" gate="D" pin="MII1_TXD3"/>
 </segment>
 <segment>
 <wire x1="15.24" y1="294.64" x2="58.42" y2="294.64" width="0.1524" layer="91"/>
@@ -24192,6 +24203,7 @@ of the large aluminum cap</text>
 <segment>
 <wire x1="441.96" y1="495.3" x2="416.56" y2="495.3" width="0.1524" layer="91"/>
 <label x="416.56" y="495.3" size="1.778" layer="95"/>
+<pinref part="U1" gate="D" pin="MII1_TXD2"/>
 </segment>
 <segment>
 <wire x1="15.24" y1="292.1" x2="58.42" y2="292.1" width="0.1524" layer="91"/>
@@ -24203,6 +24215,7 @@ of the large aluminum cap</text>
 <segment>
 <wire x1="441.96" y1="485.14" x2="416.56" y2="485.14" width="0.1524" layer="91"/>
 <label x="416.56" y="485.14" size="1.778" layer="95"/>
+<pinref part="U1" gate="D" pin="MII1_COL"/>
 </segment>
 <segment>
 <wire x1="15.24" y1="289.56" x2="58.42" y2="289.56" width="0.1524" layer="91"/>
@@ -24214,6 +24227,7 @@ of the large aluminum cap</text>
 <segment>
 <label x="416.56" y="474.98" size="1.778" layer="95"/>
 <wire x1="441.96" y1="474.98" x2="416.56" y2="474.98" width="0.1524" layer="91"/>
+<pinref part="U1" gate="D" pin="MII1_RXD1"/>
 </segment>
 <segment>
 <wire x1="15.24" y1="287.02" x2="58.42" y2="287.02" width="0.1524" layer="91"/>
@@ -24225,6 +24239,7 @@ of the large aluminum cap</text>
 <segment>
 <label x="416.56" y="490.22" size="1.778" layer="95"/>
 <wire x1="441.96" y1="490.22" x2="416.56" y2="490.22" width="0.1524" layer="91"/>
+<pinref part="U1" gate="D" pin="MII1_TX_EN"/>
 </segment>
 <segment>
 <wire x1="15.24" y1="284.48" x2="58.42" y2="284.48" width="0.1524" layer="91"/>
@@ -24236,6 +24251,7 @@ of the large aluminum cap</text>
 <segment>
 <label x="416.56" y="502.92" size="1.778" layer="95"/>
 <wire x1="441.96" y1="502.92" x2="416.56" y2="502.92" width="0.1524" layer="91"/>
+<pinref part="U1" gate="D" pin="MII1_TX_CLK"/>
 </segment>
 <segment>
 <wire x1="15.24" y1="241.3" x2="40.64" y2="241.3" width="0.1524" layer="91"/>
@@ -24252,6 +24268,7 @@ of the large aluminum cap</text>
 <segment>
 <label x="416.56" y="500.38" size="1.778" layer="95"/>
 <wire x1="441.96" y1="500.38" x2="416.56" y2="500.38" width="0.1524" layer="91"/>
+<pinref part="U1" gate="D" pin="MII1_TXD0"/>
 </segment>
 </net>
 <net name="WL_IRQ.SIP" class="0">
@@ -24263,6 +24280,7 @@ of the large aluminum cap</text>
 <segment>
 <wire x1="441.96" y1="497.84" x2="416.56" y2="497.84" width="0.1524" layer="91"/>
 <label x="416.56" y="497.84" size="1.778" layer="95"/>
+<pinref part="U1" gate="D" pin="MII1_TXD1"/>
 </segment>
 </net>
 <net name="N$57" class="0">
