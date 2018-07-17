@@ -6426,7 +6426,23 @@ design rules under a new name.</description>
 <wire x1="29.2354" y1="8.128" x2="28.067" y2="9.2964" width="0.254" layer="3"/>
 <wire x1="28.067" y1="9.2964" x2="28.067" y2="17.6276" width="0.254" layer="3"/>
 <wire x1="28.067" y1="17.6276" x2="28.575" y2="18.1356" width="0.254" layer="3"/>
-<wire x1="56.896" y1="21.463" x2="58.039" y2="20.066" width="0" layer="19" extent="1-1"/>
+<contactref element="U1" pad="H10"/>
+<contactref element="U1" pad="H11"/>
+<contactref element="U1" pad="J10"/>
+<contactref element="U1" pad="K10"/>
+<contactref element="U1" pad="L10"/>
+<contactref element="U1" pad="F10"/>
+<contactref element="U1" pad="G10"/>
+<contactref element="U1" pad="J11"/>
+<wire x1="53.1368" y1="73.7616" x2="51.8668" y2="73.7616" width="0" layer="19" extent="1-1"/>
+<wire x1="51.8668" y1="72.4916" x2="51.8668" y2="73.7616" width="0" layer="19" extent="1-1"/>
+<wire x1="53.1368" y1="72.4916" x2="53.1368" y2="73.7616" width="0" layer="19" extent="1-1"/>
+<wire x1="54.4068" y1="72.4916" x2="53.1368" y2="72.4916" width="0" layer="19" extent="1-1"/>
+<wire x1="55.6768" y1="72.4916" x2="54.4068" y2="72.4916" width="0" layer="19" extent="1-1"/>
+<wire x1="50.5968" y1="72.4916" x2="51.8668" y2="72.4916" width="0" layer="19" extent="1-1"/>
+<wire x1="49.3268" y1="72.4916" x2="50.5968" y2="72.4916" width="0" layer="19" extent="1-1"/>
+<wire x1="45.466" y1="27.686" x2="49.3268" y2="72.4916" width="0" layer="19" extent="1-1"/>
+<wire x1="58.039" y1="20.066" x2="56.896" y2="21.463" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$11" class="1">
 <contactref element="C4" pad="2"/>
@@ -7127,6 +7143,8 @@ design rules under a new name.</description>
 <contactref element="R24" pad="2"/>
 <wire x1="60.706" y1="11.176" x2="61.476" y2="11.176" width="0.1524" layer="16"/>
 <via x="60.706" y="11.176" extent="1-16" drill="0.4064"/>
+<contactref element="U1" pad="M16"/>
+<wire x1="60.706" y1="11.176" x2="56.9468" y2="80.1116" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="SD.CD">
 <contactref element="R7" pad="1"/>
@@ -9715,23 +9733,6 @@ design rules under a new name.</description>
 <wire x1="53.1368" y1="69.9516" x2="51.8668" y2="69.9516" width="0" layer="19" extent="1-1"/>
 <wire x1="54.4068" y1="69.9516" x2="53.1368" y2="69.9516" width="0" layer="19" extent="1-1"/>
 <wire x1="55.6768" y1="69.9516" x2="54.4068" y2="69.9516" width="0" layer="19" extent="1-1"/>
-</signal>
-<signal name="SYS_VDD_1P8V">
-<contactref element="U1" pad="F10"/>
-<contactref element="U1" pad="G10"/>
-<contactref element="U1" pad="H10"/>
-<contactref element="U1" pad="H11"/>
-<contactref element="U1" pad="J10"/>
-<contactref element="U1" pad="J11"/>
-<contactref element="U1" pad="K10"/>
-<contactref element="U1" pad="L10"/>
-<wire x1="50.5968" y1="72.4916" x2="49.3268" y2="72.4916" width="0" layer="19" extent="1-1"/>
-<wire x1="51.8668" y1="72.4916" x2="50.5968" y2="72.4916" width="0" layer="19" extent="1-1"/>
-<wire x1="53.1368" y1="72.4916" x2="51.8668" y2="72.4916" width="0" layer="19" extent="1-1"/>
-<wire x1="51.8668" y1="73.7616" x2="51.8668" y2="72.4916" width="0" layer="19" extent="1-1"/>
-<wire x1="53.1368" y1="73.7616" x2="53.1368" y2="72.4916" width="0" layer="19" extent="1-1"/>
-<wire x1="54.4068" y1="72.4916" x2="53.1368" y2="72.4916" width="0" layer="19" extent="1-1"/>
-<wire x1="55.6768" y1="72.4916" x2="54.4068" y2="72.4916" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="VDDSHV1">
 <contactref element="U1" pad="J9"/>

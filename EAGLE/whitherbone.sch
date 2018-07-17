@@ -24146,7 +24146,6 @@ diameter 5 mm, grid 2.54 mm</description>
 <part name="SUPPLY12" library="GHI-PowerGoundSupply" deviceset="VDD_1V8" device=""/>
 <part name="SUPPLY7" library="GHI-PowerGoundSupply" deviceset="VDD_3V3A" device=""/>
 <part name="SUPPLY32" library="GHI-PowerGoundSupply" deviceset="VDD_5V" device=""/>
-<part name="SUPPLY4" library="GHI-PowerGoundSupply" deviceset="VDD_ADC" device=""/>
 <part name="SUPPLY11" library="GHI-PowerGoundSupply" deviceset="VDD_CORE" device=""/>
 <part name="SUPPLY5" library="GHI-PowerGoundSupply" deviceset="VDD_MPU" device=""/>
 <part name="SUPPLY13" library="GHI-PowerGoundSupply" deviceset="VDD_RTC" device=""/>
@@ -28160,10 +28159,9 @@ of the large aluminum cap</text>
 <instance part="SUPPLY31" gate="G$1" x="701.04" y="556.26"/>
 <instance part="SUPPLY14" gate="G$1" x="762" y="228.6"/>
 <instance part="SUPPLY6" gate="G$1" x="754.38" y="200.66" rot="R90"/>
-<instance part="SUPPLY12" gate="G$1" x="817.88" y="452.12"/>
+<instance part="SUPPLY12" gate="G$1" x="787.4" y="453.39"/>
 <instance part="SUPPLY7" gate="G$1" x="810.26" y="467.36" rot="R90"/>
 <instance part="SUPPLY32" gate="G$1" x="701.04" y="571.5"/>
-<instance part="SUPPLY4" gate="G$1" x="807.72" y="419.1"/>
 <instance part="SUPPLY11" gate="G$1" x="749.3" y="218.44"/>
 <instance part="SUPPLY5" gate="G$1" x="749.3" y="205.74" rot="R90"/>
 <instance part="SUPPLY13" gate="G$1" x="784.86" y="518.16" rot="R270"/>
@@ -28171,8 +28169,8 @@ of the large aluminum cap</text>
 <instance part="GND12" gate="1" x="690.88" y="637.54"/>
 <instance part="GND23" gate="1" x="673.1" y="477.52"/>
 <instance part="SUPPLY39" gate="G$1" x="789.94" y="548.64" rot="R270"/>
-<instance part="R24" gate="G$1" x="820.42" y="434.34" rot="R90"/>
-<instance part="GND10" gate="1" x="820.42" y="424.18"/>
+<instance part="R24" gate="G$1" x="681.99" y="403.86"/>
+<instance part="GND10" gate="1" x="669.29" y="401.32"/>
 <instance part="R8" gate="G$1" x="53.34" y="535.94" rot="R90"/>
 <instance part="R1" gate="G$1" x="459.74" y="154.94" rot="R90"/>
 <instance part="R2" gate="G$1" x="467.36" y="154.94" rot="R90"/>
@@ -28718,7 +28716,7 @@ of the large aluminum cap</text>
 <segment>
 <pinref part="GND10" gate="1" pin="GND"/>
 <pinref part="R24" gate="G$1" pin="1"/>
-<wire x1="820.42" y1="426.72" x2="820.42" y2="429.26" width="0.1524" layer="91"/>
+<wire x1="669.29" y1="403.86" x2="676.91" y2="403.86" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="C2" gate="G$1" pin="2"/>
@@ -30506,11 +30504,37 @@ of the large aluminum cap</text>
 <net name="VDD_1V8" class="0">
 <segment>
 <pinref part="SUPPLY12" gate="G$1" pin="VDD_1V8"/>
-<wire x1="817.88" y1="449.58" x2="817.88" y2="447.04" width="0.1524" layer="91"/>
-<wire x1="817.88" y1="447.04" x2="817.88" y2="444.5" width="0.1524" layer="91"/>
-<wire x1="817.88" y1="444.5" x2="805.18" y2="444.5" width="0.1524" layer="91"/>
-<wire x1="805.18" y1="447.04" x2="817.88" y2="447.04" width="0.1524" layer="91"/>
-<junction x="817.88" y="447.04"/>
+<wire x1="787.4" y1="450.85" x2="787.4" y2="449.58" width="0.1524" layer="91"/>
+<wire x1="787.4" y1="449.58" x2="787.4" y2="447.04" width="0.1524" layer="91"/>
+<wire x1="787.4" y1="447.04" x2="777.24" y2="447.04" width="0.1524" layer="91"/>
+<wire x1="777.24" y1="449.58" x2="787.4" y2="449.58" width="0.1524" layer="91"/>
+<junction x="787.4" y="449.58"/>
+<pinref part="U1" gate="A" pin="SYS_VDD_1P8V@3"/>
+<wire x1="777.24" y1="444.5" x2="787.4" y2="444.5" width="0.1524" layer="91"/>
+<wire x1="787.4" y1="444.5" x2="787.4" y2="447.04" width="0.1524" layer="91"/>
+<pinref part="U1" gate="A" pin="SYS_VDD_1P8V@4"/>
+<wire x1="777.24" y1="441.96" x2="787.4" y2="441.96" width="0.1524" layer="91"/>
+<wire x1="787.4" y1="441.96" x2="787.4" y2="444.5" width="0.1524" layer="91"/>
+<pinref part="U1" gate="A" pin="SYS_VDD_1P8V@5"/>
+<wire x1="777.24" y1="439.42" x2="787.4" y2="439.42" width="0.1524" layer="91"/>
+<wire x1="787.4" y1="439.42" x2="787.4" y2="441.96" width="0.1524" layer="91"/>
+<wire x1="777.24" y1="436.88" x2="787.4" y2="436.88" width="0.1524" layer="91"/>
+<wire x1="787.4" y1="436.88" x2="787.4" y2="439.42" width="0.1524" layer="91"/>
+<pinref part="U1" gate="A" pin="SYS_VDD_1P8V@7"/>
+<wire x1="777.24" y1="434.34" x2="787.4" y2="434.34" width="0.1524" layer="91"/>
+<wire x1="787.4" y1="434.34" x2="787.4" y2="436.88" width="0.1524" layer="91"/>
+<pinref part="U1" gate="A" pin="SYS_VDD_1P8V@8"/>
+<wire x1="777.24" y1="431.8" x2="787.4" y2="431.8" width="0.1524" layer="91"/>
+<wire x1="787.4" y1="431.8" x2="787.4" y2="434.34" width="0.1524" layer="91"/>
+<junction x="787.4" y="447.04"/>
+<junction x="787.4" y="444.5"/>
+<junction x="787.4" y="441.96"/>
+<junction x="787.4" y="439.42"/>
+<junction x="787.4" y="436.88"/>
+<junction x="787.4" y="434.34"/>
+<pinref part="U1" gate="A" pin="SYS_VDD_1P8V@1"/>
+<pinref part="U1" gate="A" pin="SYS_VDD_1P8V@2"/>
+<pinref part="U1" gate="A" pin="SYS_VDD_1P8V@6"/>
 </segment>
 <segment>
 <pinref part="SUPPLY50" gate="G$1" pin="VDD_1V8"/>
@@ -30563,11 +30587,6 @@ of the large aluminum cap</text>
 </segment>
 </net>
 <net name="VDD_ADC" class="0">
-<segment>
-<pinref part="SUPPLY4" gate="G$1" pin="VDD_ADC"/>
-<wire x1="817.88" y1="414.02" x2="807.72" y2="414.02" width="0.1524" layer="91"/>
-<wire x1="807.72" y1="414.02" x2="807.72" y2="416.56" width="0.1524" layer="91"/>
-</segment>
 <segment>
 <pinref part="SUPPLY19" gate="G$1" pin="VDD_ADC"/>
 <wire x1="327.66" y1="546.1" x2="312.42" y2="546.1" width="0.1524" layer="91"/>
@@ -31035,9 +31054,9 @@ of the large aluminum cap</text>
 </net>
 <net name="N$22" class="0">
 <segment>
-<wire x1="805.18" y1="441.96" x2="820.42" y2="441.96" width="0.1524" layer="91"/>
+<wire x1="706.12" y1="403.86" x2="687.07" y2="403.86" width="0.1524" layer="91"/>
 <pinref part="R24" gate="G$1" pin="2"/>
-<wire x1="820.42" y1="441.96" x2="820.42" y2="439.42" width="0.1524" layer="91"/>
+<pinref part="U1" gate="A" pin="RTC_KALDO_ENN"/>
 </segment>
 </net>
 <net name="SD.CD" class="0">
