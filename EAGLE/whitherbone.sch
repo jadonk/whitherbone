@@ -26026,6 +26026,9 @@ Standard 4-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <part name="FB8" library="rcl" deviceset="R-US_" device="R0402" value="1k BLM15AG102SN1D"/>
 <part name="JP3" library="SparkFun" deviceset="M04" device="PTH"/>
 <part name="JP5" library="BigEasyDriver_v11" deviceset="M04" device="SCREW_LOCK"/>
+<part name="R28" library="rcl" deviceset="R-US_" device="R0402" value="47k, 1%"/>
+<part name="R29" library="rcl" deviceset="R-US_" device="R0402" value="22k, 1%"/>
+<part name="GND26" library="supply1" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -30164,6 +30167,9 @@ of the large aluminum cap</text>
 </instance>
 <instance part="JP3" gate="G$1" x="474.98" y="12.7"/>
 <instance part="JP5" gate="G$1" x="502.92" y="12.7"/>
+<instance part="R28" gate="G$1" x="139.7" y="492.76"/>
+<instance part="R29" gate="G$1" x="157.48" y="492.76"/>
+<instance part="GND26" gate="1" x="172.72" y="492.76" rot="R90"/>
 </instances>
 <busses>
 </busses>
@@ -31254,6 +31260,11 @@ of the large aluminum cap</text>
 <wire x1="599.44" y1="25.4" x2="599.44" y2="22.86" width="0.1524" layer="91"/>
 <pinref part="R21" gate="G$1" pin="2"/>
 <pinref part="GND25" gate="1" pin="GND"/>
+</segment>
+<segment>
+<pinref part="R29" gate="G$1" pin="2"/>
+<pinref part="GND26" gate="1" pin="GND"/>
+<wire x1="162.56" y1="492.76" x2="170.18" y2="492.76" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$6" class="0">
@@ -33588,42 +33599,6 @@ of the large aluminum cap</text>
 <wire x1="330.2" y1="269.24" x2="332.74" y2="269.24" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="WL_SDIO_D0.SIP" class="0">
-<segment>
-<wire x1="15.24" y1="297.18" x2="58.42" y2="297.18" width="0.1524" layer="91"/>
-<label x="17.78" y="297.18" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="WL_SDIO_D1.SIP" class="0">
-<segment>
-<wire x1="15.24" y1="294.64" x2="58.42" y2="294.64" width="0.1524" layer="91"/>
-<label x="17.78" y="294.64" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="WL_SDIO_D2.SIP" class="0">
-<segment>
-<wire x1="15.24" y1="292.1" x2="58.42" y2="292.1" width="0.1524" layer="91"/>
-<label x="17.78" y="292.1" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="WL_SDIO_D3.SIP" class="0">
-<segment>
-<wire x1="15.24" y1="289.56" x2="58.42" y2="289.56" width="0.1524" layer="91"/>
-<label x="17.78" y="289.56" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="WL_SDIO_CLK.SIP" class="0">
-<segment>
-<wire x1="15.24" y1="287.02" x2="58.42" y2="287.02" width="0.1524" layer="91"/>
-<label x="17.78" y="287.02" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="WL_SDIO_CMD.SIP" class="0">
-<segment>
-<wire x1="15.24" y1="284.48" x2="58.42" y2="284.48" width="0.1524" layer="91"/>
-<label x="17.78" y="284.48" size="1.778" layer="95"/>
-</segment>
-</net>
 <net name="N$57" class="0">
 <segment>
 <pinref part="WL" gate="G$1" pin="A"/>
@@ -34169,6 +34144,13 @@ of the large aluminum cap</text>
 <label x="497.84" y="45.72" size="1.778" layer="95"/>
 <pinref part="IC1" gate="G$1" pin="REF"/>
 </segment>
+<segment>
+<pinref part="R28" gate="G$1" pin="2"/>
+<wire x1="144.78" y1="492.76" x2="147.32" y2="492.76" width="0.1524" layer="91"/>
+<wire x1="147.32" y1="492.76" x2="147.32" y2="502.92" width="0.1524" layer="91"/>
+<wire x1="147.32" y1="502.92" x2="170.18" y2="502.92" width="0.1524" layer="91"/>
+<label x="162.56" y="502.92" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="COILB+" class="0">
 <segment>
@@ -34204,10 +34186,10 @@ of the large aluminum cap</text>
 <pinref part="JP5" gate="G$1" pin="2"/>
 </segment>
 </net>
-<net name="DIR" class="0">
+<net name="DIR(GPIO23)" class="0">
 <segment>
 <wire x1="467.36" y1="60.96" x2="449.58" y2="60.96" width="0.1524" layer="91"/>
-<label x="452.12" y="61.468" size="1.778" layer="95"/>
+<label x="449.58" y="61.468" size="1.778" layer="95"/>
 <pinref part="IC1" gate="G$1" pin="DIR"/>
 </segment>
 <segment>
@@ -34215,11 +34197,16 @@ of the large aluminum cap</text>
 <label x="574.04" y="71.12" size="1.778" layer="95"/>
 <pinref part="R22" gate="G$1" pin="1"/>
 </segment>
+<segment>
+<wire x1="655.32" y1="462.28" x2="637.54" y2="462.28" width="0.1524" layer="91"/>
+<label x="640.08" y="462.788" size="1.778" layer="95"/>
+<pinref part="U1" gate="C" pin="GPMC_AD9"/>
+</segment>
 </net>
-<net name="MS1" class="0">
+<net name="MS1(GPIO27)" class="0">
 <segment>
 <wire x1="467.36" y1="55.88" x2="449.58" y2="55.88" width="0.1524" layer="91"/>
-<label x="452.12" y="56.388" size="1.778" layer="95"/>
+<label x="449.58" y="56.388" size="1.778" layer="95"/>
 <pinref part="IC1" gate="G$1" pin="MS1"/>
 </segment>
 <segment>
@@ -34227,11 +34214,16 @@ of the large aluminum cap</text>
 <label x="574.04" y="63.5" size="1.778" layer="95"/>
 <pinref part="R11" gate="G$1" pin="1"/>
 </segment>
+<segment>
+<wire x1="655.32" y1="457.2" x2="637.54" y2="457.2" width="0.1524" layer="91"/>
+<label x="640.08" y="457.708" size="1.778" layer="95"/>
+<pinref part="U1" gate="C" pin="GPMC_AD11"/>
+</segment>
 </net>
-<net name="MS2" class="0">
+<net name="MS2(GPIO44)" class="0">
 <segment>
 <wire x1="467.36" y1="53.34" x2="449.58" y2="53.34" width="0.1524" layer="91"/>
-<label x="452.12" y="53.848" size="1.778" layer="95"/>
+<label x="449.58" y="53.848" size="1.778" layer="95"/>
 <pinref part="IC1" gate="G$1" pin="MS2"/>
 </segment>
 <segment>
@@ -34239,17 +34231,27 @@ of the large aluminum cap</text>
 <label x="574.04" y="55.88" size="1.778" layer="95"/>
 <pinref part="R12" gate="G$1" pin="1"/>
 </segment>
+<segment>
+<wire x1="655.32" y1="454.66" x2="637.54" y2="454.66" width="0.1524" layer="91"/>
+<label x="640.08" y="455.168" size="1.778" layer="95"/>
+<pinref part="U1" gate="C" pin="GPMC_AD12"/>
+</segment>
 </net>
-<net name="ENABLE" class="0">
+<net name="ENABLE(GPIO46)" class="0">
 <segment>
 <wire x1="467.36" y1="48.26" x2="449.58" y2="48.26" width="0.1524" layer="91"/>
-<label x="452.12" y="48.768" size="1.778" layer="95"/>
+<label x="449.58" y="48.768" size="1.778" layer="95"/>
 <pinref part="IC1" gate="G$1" pin="ENABLE"/>
 </segment>
 <segment>
 <wire x1="584.2" y1="25.4" x2="571.5" y2="25.4" width="0.1524" layer="91"/>
 <label x="574.04" y="25.4" size="1.778" layer="95"/>
 <pinref part="R21" gate="G$1" pin="1"/>
+</segment>
+<segment>
+<wire x1="655.32" y1="449.58" x2="637.54" y2="449.58" width="0.1524" layer="91"/>
+<label x="640.08" y="450.088" size="1.778" layer="95"/>
+<pinref part="U1" gate="C" pin="GPMC_AD14"/>
 </segment>
 </net>
 <net name="COILA-" class="0">
@@ -34286,10 +34288,10 @@ of the large aluminum cap</text>
 <pinref part="JP3" gate="G$1" pin="4"/>
 </segment>
 </net>
-<net name="RESET" class="0">
+<net name="RESET(GPIO26)" class="0">
 <segment>
 <wire x1="467.36" y1="58.42" x2="449.58" y2="58.42" width="0.1524" layer="91"/>
-<label x="452.12" y="58.928" size="1.778" layer="95"/>
+<label x="449.58" y="58.928" size="1.778" layer="95"/>
 <pinref part="IC1" gate="G$1" pin="RESET"/>
 </segment>
 <segment>
@@ -34297,11 +34299,16 @@ of the large aluminum cap</text>
 <label x="574.04" y="33.02" size="1.778" layer="95"/>
 <pinref part="R15" gate="G$1" pin="1"/>
 </segment>
+<segment>
+<wire x1="655.32" y1="459.74" x2="637.54" y2="459.74" width="0.1524" layer="91"/>
+<label x="640.08" y="460.248" size="1.778" layer="95"/>
+<pinref part="U1" gate="C" pin="GPMC_AD10"/>
+</segment>
 </net>
-<net name="STEP" class="0">
+<net name="STEP(GPIO22)" class="0">
 <segment>
 <wire x1="467.36" y1="63.5" x2="449.58" y2="63.5" width="0.1524" layer="91"/>
-<label x="452.12" y="64.008" size="1.778" layer="95"/>
+<label x="449.58" y="64.008" size="1.778" layer="95"/>
 <pinref part="IC1" gate="G$1" pin="STEP"/>
 </segment>
 <segment>
@@ -34309,17 +34316,27 @@ of the large aluminum cap</text>
 <label x="574.04" y="78.74" size="1.778" layer="95"/>
 <pinref part="R23" gate="G$1" pin="1"/>
 </segment>
+<segment>
+<wire x1="655.32" y1="464.82" x2="637.54" y2="464.82" width="0.1524" layer="91"/>
+<label x="640.08" y="465.328" size="1.778" layer="95"/>
+<pinref part="U1" gate="C" pin="GPMC_AD8"/>
+</segment>
 </net>
-<net name="SLEEP" class="0">
+<net name="SLEEP(GPIO47)" class="0">
 <segment>
 <wire x1="467.36" y1="45.72" x2="449.58" y2="45.72" width="0.1524" layer="91"/>
-<label x="452.12" y="46.228" size="1.778" layer="95"/>
+<label x="449.58" y="46.228" size="1.778" layer="95"/>
 <pinref part="IC1" gate="G$1" pin="SLEEP"/>
 </segment>
 <segment>
 <wire x1="584.2" y1="40.64" x2="571.5" y2="40.64" width="0.1524" layer="91"/>
 <label x="574.04" y="40.64" size="1.778" layer="95"/>
 <pinref part="R14" gate="G$1" pin="1"/>
+</segment>
+<segment>
+<wire x1="655.32" y1="447.04" x2="637.54" y2="447.04" width="0.1524" layer="91"/>
+<label x="640.08" y="447.548" size="1.778" layer="95"/>
+<pinref part="U1" gate="C" pin="GPMC_AD15"/>
 </segment>
 </net>
 <net name="N$31" class="0">
@@ -34380,10 +34397,10 @@ of the large aluminum cap</text>
 <pinref part="C18" gate="G$1" pin="1"/>
 </segment>
 </net>
-<net name="MS3" class="0">
+<net name="MS3(GPIO45)" class="0">
 <segment>
 <wire x1="467.36" y1="50.8" x2="449.58" y2="50.8" width="0.1524" layer="91"/>
-<label x="452.12" y="51.308" size="1.778" layer="95"/>
+<label x="449.58" y="51.308" size="1.778" layer="95"/>
 <pinref part="IC1" gate="G$1" pin="MS3"/>
 </segment>
 <segment>
@@ -34391,12 +34408,30 @@ of the large aluminum cap</text>
 <label x="574.04" y="48.26" size="1.778" layer="95"/>
 <pinref part="R13" gate="G$1" pin="1"/>
 </segment>
+<segment>
+<wire x1="655.32" y1="452.12" x2="637.54" y2="452.12" width="0.1524" layer="91"/>
+<label x="640.08" y="452.628" size="1.778" layer="95"/>
+<pinref part="U1" gate="C" pin="GPMC_AD13"/>
+</segment>
 </net>
 <net name="N$48" class="0">
 <segment>
 <wire x1="546.1" y1="35.56" x2="546.1" y2="33.02" width="0.1524" layer="91"/>
 <pinref part="R25" gate="G$1" pin="2"/>
 <pinref part="R16" gate="R?" pin="CCW"/>
+</segment>
+</net>
+<net name="N$49" class="0">
+<segment>
+<pinref part="U1" gate="B" pin="AIN0"/>
+<pinref part="R28" gate="G$1" pin="1"/>
+<wire x1="129.54" y1="492.76" x2="132.08" y2="492.76" width="0.1524" layer="91"/>
+<wire x1="132.08" y1="492.76" x2="134.62" y2="492.76" width="0.1524" layer="91"/>
+<wire x1="132.08" y1="492.76" x2="132.08" y2="487.68" width="0.1524" layer="91"/>
+<pinref part="R29" gate="G$1" pin="1"/>
+<wire x1="132.08" y1="487.68" x2="152.4" y2="487.68" width="0.1524" layer="91"/>
+<wire x1="152.4" y1="487.68" x2="152.4" y2="492.76" width="0.1524" layer="91"/>
+<junction x="132.08" y="492.76"/>
 </segment>
 </net>
 </nets>
