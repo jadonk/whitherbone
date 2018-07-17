@@ -16340,6 +16340,182 @@ http://www.fairchildsemi.com/ds/LM/LM7805.pdf</description>
 </deviceset>
 </devicesets>
 </library>
+<library name="A3967SLBTR">
+<packages>
+<package name="SOIC24WIDE">
+<description>&lt;b&gt;Small Outline Package 24&lt;/b&gt; wide</description>
+<wire x1="7.366" y1="3.7338" x2="-7.366" y2="3.7338" width="0.1524" layer="21"/>
+<wire x1="7.366" y1="-3.7338" x2="7.747" y2="-3.3528" width="0.1524" layer="21" curve="90"/>
+<wire x1="-7.747" y1="3.3528" x2="-7.366" y2="3.7338" width="0.1524" layer="21" curve="-90"/>
+<wire x1="7.366" y1="3.7338" x2="7.747" y2="3.3528" width="0.1524" layer="21" curve="-90"/>
+<wire x1="-7.747" y1="-3.3528" x2="-7.366" y2="-3.7338" width="0.1524" layer="21" curve="90"/>
+<wire x1="-7.366" y1="-3.7338" x2="7.366" y2="-3.7338" width="0.1524" layer="21"/>
+<wire x1="-7.747" y1="3.3528" x2="-7.747" y2="1.27" width="0.1524" layer="21"/>
+<wire x1="-7.747" y1="1.27" x2="-7.747" y2="-1.27" width="0.1524" layer="21"/>
+<wire x1="-7.747" y1="-1.27" x2="-7.747" y2="-3.3528" width="0.1524" layer="21"/>
+<wire x1="-7.747" y1="-3.3782" x2="7.747" y2="-3.3782" width="0.0508" layer="21"/>
+<wire x1="-7.747" y1="1.27" x2="-7.747" y2="-1.27" width="0.1524" layer="21" curve="-180"/>
+<text x="-5.860290625" y="-0.509590625" size="0.407671875" layer="27">&gt;VALUE</text>
+<text x="-5.86108125" y="0.254828125" size="0.407728125" layer="25">&gt;NAME</text>
+<rectangle x1="-7.26196875" y1="-3.873059375" x2="-6.731" y2="-3.7338" layer="21"/>
+<rectangle x1="-7.26418125" y1="-5.352559375" x2="-6.731" y2="-3.8608" layer="51"/>
+<rectangle x1="-5.982540625" y1="-3.869559375" x2="-5.461" y2="-3.7338" layer="21"/>
+<rectangle x1="-5.989740625" y1="-5.352540625" x2="-5.461" y2="-3.8608" layer="51"/>
+<rectangle x1="-4.717290625" y1="-3.87583125" x2="-4.191" y2="-3.7338" layer="21"/>
+<rectangle x1="-4.712209375" y1="-5.349" x2="-4.191" y2="-3.8608" layer="51"/>
+<rectangle x1="-3.44271875" y1="-3.87625" x2="-2.921" y2="-3.7338" layer="21"/>
+<rectangle x1="-3.44178125" y1="-5.35388125" x2="-2.921" y2="-3.8608" layer="51"/>
+<rectangle x1="-2.1649" y1="-5.34858125" x2="-1.651" y2="-3.8608" layer="51"/>
+<rectangle x1="-2.1679" y1="-3.87671875" x2="-1.651" y2="-3.7338" layer="21"/>
+<rectangle x1="-0.891878125" y1="-3.8733" x2="-0.381" y2="-3.7338" layer="21"/>
+<rectangle x1="-0.89279375" y1="-5.35676875" x2="-0.381" y2="-3.8608" layer="51"/>
+<rectangle x1="0.382165625" y1="-3.87261875" x2="0.889" y2="-3.7338" layer="21"/>
+<rectangle x1="0.3817875" y1="-5.345040625" x2="0.889" y2="-3.8608" layer="51"/>
+<rectangle x1="1.65625" y1="-3.87306875" x2="2.159" y2="-3.7338" layer="21"/>
+<rectangle x1="1.65413125" y1="-5.34411875" x2="2.159" y2="-3.8608" layer="51"/>
+<rectangle x1="-7.26306875" y1="3.87363125" x2="-6.731" y2="5.334" layer="51"/>
+<rectangle x1="-7.25206875" y1="3.74055" x2="-6.731" y2="3.8608" layer="21"/>
+<rectangle x1="-5.9901" y1="3.747" x2="-5.461" y2="3.8608" layer="21"/>
+<rectangle x1="-5.985159375" y1="3.871259375" x2="-5.461" y2="5.334" layer="51"/>
+<rectangle x1="-4.72158125" y1="3.75173125" x2="-4.191" y2="3.8608" layer="21"/>
+<rectangle x1="-4.715490625" y1="3.874340625" x2="-4.191" y2="5.334" layer="51"/>
+<rectangle x1="-3.441190625" y1="3.74708125" x2="-2.921" y2="3.8608" layer="21"/>
+<rectangle x1="-3.441359375" y1="3.87471875" x2="-2.921" y2="5.334" layer="51"/>
+<rectangle x1="-2.161740625" y1="3.73855" x2="-1.651" y2="3.8608" layer="21"/>
+<rectangle x1="-2.16335" y1="3.86858125" x2="-1.651" y2="5.334" layer="51"/>
+<rectangle x1="-0.8926" y1="3.74891875" x2="-0.381" y2="3.8608" layer="21"/>
+<rectangle x1="-0.892071875" y1="3.87415" x2="-0.381" y2="5.334" layer="51"/>
+<rectangle x1="0.38284375" y1="3.751859375" x2="0.889" y2="3.8608" layer="21"/>
+<rectangle x1="0.381503125" y1="3.8659" x2="0.889" y2="5.334" layer="51"/>
+<rectangle x1="1.655909375" y1="3.744909375" x2="2.159" y2="3.8608" layer="21"/>
+<rectangle x1="1.654190625" y1="3.868259375" x2="2.159" y2="5.334" layer="51"/>
+<rectangle x1="2.931840625" y1="3.747659375" x2="3.429" y2="3.8608" layer="21"/>
+<rectangle x1="4.21035" y1="3.751040625" x2="4.699" y2="3.8608" layer="21"/>
+<rectangle x1="5.48515" y1="3.75031875" x2="5.969" y2="3.8608" layer="21"/>
+<rectangle x1="6.75655" y1="3.74796875" x2="7.239" y2="3.8608" layer="21"/>
+<rectangle x1="2.933490625" y1="3.8773" x2="3.429" y2="5.334" layer="51"/>
+<rectangle x1="4.200440625" y1="3.869490625" x2="4.699" y2="5.334" layer="51"/>
+<rectangle x1="5.487759375" y1="3.87973125" x2="5.969" y2="5.334" layer="51"/>
+<rectangle x1="6.75616875" y1="3.87523125" x2="7.239" y2="5.334" layer="51"/>
+<rectangle x1="2.934990625" y1="-3.879290625" x2="3.429" y2="-3.7338" layer="21"/>
+<rectangle x1="4.21123125" y1="-3.879440625" x2="4.699" y2="-3.7338" layer="21"/>
+<rectangle x1="5.484859375" y1="-3.87766875" x2="5.969" y2="-3.7338" layer="21"/>
+<rectangle x1="6.75266875" y1="-3.87323125" x2="7.239" y2="-3.7338" layer="21"/>
+<rectangle x1="2.93368125" y1="-5.357159375" x2="3.429" y2="-3.8608" layer="51"/>
+<rectangle x1="4.200040625" y1="-5.345490625" x2="4.699" y2="-3.8608" layer="51"/>
+<rectangle x1="5.47895" y1="-5.35153125" x2="5.969" y2="-3.8608" layer="51"/>
+<rectangle x1="6.741959375" y1="-5.342690625" x2="7.239" y2="-3.8608" layer="51"/>
+<smd name="1" x="-6.985" y="-5.0292" dx="0.6604" dy="2.032" layer="1"/>
+<smd name="2" x="-5.715" y="-5.0292" dx="0.6604" dy="2.032" layer="1"/>
+<smd name="3" x="-4.445" y="-5.0292" dx="0.6604" dy="2.032" layer="1"/>
+<smd name="4" x="-3.175" y="-5.0292" dx="0.6604" dy="2.032" layer="1"/>
+<smd name="5" x="-1.905" y="-5.0292" dx="0.6604" dy="2.032" layer="1"/>
+<smd name="6" x="-0.635" y="-5.0292" dx="0.6604" dy="2.032" layer="1"/>
+<smd name="7" x="0.635" y="-5.0292" dx="0.6604" dy="2.032" layer="1"/>
+<smd name="8" x="1.905" y="-5.0292" dx="0.6604" dy="2.032" layer="1"/>
+<smd name="17" x="1.905" y="5.0292" dx="0.6604" dy="2.032" layer="1"/>
+<smd name="18" x="0.635" y="5.0292" dx="0.6604" dy="2.032" layer="1"/>
+<smd name="19" x="-0.635" y="5.0292" dx="0.6604" dy="2.032" layer="1"/>
+<smd name="20" x="-1.905" y="5.0292" dx="0.6604" dy="2.032" layer="1"/>
+<smd name="21" x="-3.175" y="5.0292" dx="0.6604" dy="2.032" layer="1"/>
+<smd name="22" x="-4.445" y="5.0292" dx="0.6604" dy="2.032" layer="1"/>
+<smd name="23" x="-5.715" y="5.0292" dx="0.6604" dy="2.032" layer="1"/>
+<smd name="24" x="-6.985" y="5.0292" dx="0.6604" dy="2.032" layer="1"/>
+<smd name="16" x="3.175" y="5.0292" dx="0.6604" dy="2.032" layer="1"/>
+<smd name="15" x="4.445" y="5.0292" dx="0.6604" dy="2.032" layer="1"/>
+<smd name="14" x="5.715" y="5.0292" dx="0.6604" dy="2.032" layer="1"/>
+<smd name="13" x="6.985" y="5.0292" dx="0.6604" dy="2.032" layer="1"/>
+<smd name="9" x="3.175" y="-5.0292" dx="0.6604" dy="2.032" layer="1"/>
+<smd name="10" x="4.445" y="-5.0292" dx="0.6604" dy="2.032" layer="1"/>
+<smd name="11" x="5.715" y="-5.0292" dx="0.6604" dy="2.032" layer="1"/>
+<smd name="12" x="6.985" y="-5.0292" dx="0.6604" dy="2.032" layer="1"/>
+</package>
+</packages>
+<symbols>
+<symbol name="ALLEGRO3967">
+<wire x1="-15.24" y1="27.94" x2="15.24" y2="27.94" width="0.254" layer="94"/>
+<wire x1="15.24" y1="27.94" x2="15.24" y2="-30.48" width="0.254" layer="94"/>
+<wire x1="15.24" y1="-30.48" x2="-15.24" y2="-30.48" width="0.254" layer="94"/>
+<wire x1="-15.24" y1="-30.48" x2="-15.24" y2="27.94" width="0.254" layer="94"/>
+<text x="-15.2649" y="29.2578" size="1.780909375" layer="95">&gt;NAME</text>
+<text x="-15.3072" y="-33.1656" size="1.785840625" layer="96">&gt;VALUE</text>
+<pin name="REF" x="-17.78" y="20.32" length="short" direction="in"/>
+<pin name="RC1" x="-17.78" y="-12.7" length="short" direction="in"/>
+<pin name="RC2" x="-17.78" y="-15.24" length="short" direction="in"/>
+<pin name="PFD" x="-17.78" y="-7.62" length="short" direction="in"/>
+<pin name="!SLEEP" x="-17.78" y="0" length="short" direction="in"/>
+<pin name="!RESET" x="-17.78" y="15.24" length="short" direction="in"/>
+<pin name="SENSE1" x="17.78" y="2.54" length="short" direction="in" rot="R180"/>
+<pin name="SENSE2" x="17.78" y="-25.4" length="short" direction="in" rot="R180"/>
+<pin name="STEP" x="-17.78" y="12.7" length="short" direction="in"/>
+<pin name="DIR" x="-17.78" y="10.16" length="short" direction="in"/>
+<pin name="MS1" x="-17.78" y="7.62" length="short" direction="in"/>
+<pin name="MS2" x="-17.78" y="5.08" length="short" direction="in"/>
+<pin name="!ENABLE" x="-17.78" y="-2.54" length="short" direction="in"/>
+<pin name="VCC" x="-17.78" y="25.4" length="short" direction="pwr"/>
+<pin name="LOAD-SUPPLY1" x="17.78" y="22.86" length="short" direction="in" rot="R180"/>
+<pin name="LOAD-SUPPLY2" x="17.78" y="-5.08" length="short" direction="in" rot="R180"/>
+<pin name="OUT1A" x="17.78" y="15.24" length="short" direction="out" rot="R180"/>
+<pin name="OUT1B" x="17.78" y="10.16" length="short" direction="out" rot="R180"/>
+<pin name="OUT2A" x="17.78" y="-12.7" length="short" direction="out" rot="R180"/>
+<pin name="OUT2B" x="17.78" y="-17.78" length="short" direction="out" rot="R180"/>
+<pin name="GND@1" x="-17.78" y="-20.32" length="short" direction="pwr"/>
+<pin name="GND@2" x="-17.78" y="-22.86" length="short" direction="pwr"/>
+<pin name="GND@3" x="-17.78" y="-25.4" length="short" direction="pwr"/>
+<pin name="GND@4" x="-17.78" y="-27.94" length="short" direction="pwr"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="A3967SLBTR" prefix="U">
+<description>&lt;p&gt;&lt;b&gt;Allegro 3967&lt;/b&gt; - MICROSTEPPING DRIVER WITH TRANSLATOR&lt;/p&gt;
+Source: 3967.pdf
+&lt;p&gt;Digikey: 620-1140-1-ND&lt;/p&gt;</description>
+<gates>
+<gate name="G$1" symbol="ALLEGRO3967" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SOIC24WIDE">
+<connects>
+<connect gate="G$1" pin="!ENABLE" pad="15"/>
+<connect gate="G$1" pin="!RESET" pad="22"/>
+<connect gate="G$1" pin="!SLEEP" pad="3"/>
+<connect gate="G$1" pin="DIR" pad="11"/>
+<connect gate="G$1" pin="GND@1" pad="6"/>
+<connect gate="G$1" pin="GND@2" pad="7"/>
+<connect gate="G$1" pin="GND@3" pad="18"/>
+<connect gate="G$1" pin="GND@4" pad="19"/>
+<connect gate="G$1" pin="LOAD-SUPPLY1" pad="20"/>
+<connect gate="G$1" pin="LOAD-SUPPLY2" pad="5"/>
+<connect gate="G$1" pin="MS1" pad="12"/>
+<connect gate="G$1" pin="MS2" pad="13"/>
+<connect gate="G$1" pin="OUT1A" pad="16"/>
+<connect gate="G$1" pin="OUT1B" pad="21"/>
+<connect gate="G$1" pin="OUT2A" pad="9"/>
+<connect gate="G$1" pin="OUT2B" pad="4"/>
+<connect gate="G$1" pin="PFD" pad="24"/>
+<connect gate="G$1" pin="RC1" pad="23"/>
+<connect gate="G$1" pin="RC2" pad="2"/>
+<connect gate="G$1" pin="REF" pad="1"/>
+<connect gate="G$1" pin="SENSE1" pad="17"/>
+<connect gate="G$1" pin="SENSE2" pad="8"/>
+<connect gate="G$1" pin="STEP" pad="10"/>
+<connect gate="G$1" pin="VCC" pad="14"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DESCRIPTION" value=" Ic Motor Driver Pwm Full 24soic - A3967slbtr-t "/>
+<attribute name="DIGI-KEY_PART_NUMBER" value="620-1140-1-ND"/>
+<attribute name="DIGI-KEY_PURCHASE_URL" value="https://www.digikey.com/product-detail/en/allegro-microsystems-llc/A3967SLBTR-T/620-1140-1-ND/1090383?utm_source=snapeda&amp;utm_medium=aggregator&amp;utm_campaign=symbol"/>
+<attribute name="MF" value="Allegro"/>
+<attribute name="MP" value="A3967SLBTR-T"/>
+<attribute name="PACKAGE" value="SOIC-24 Allegro MicroSystems LLC"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -16739,7 +16915,7 @@ http://www.fairchildsemi.com/ds/LM/LM7805.pdf</description>
 <part name="R9" library="rcl" deviceset="R-US_" device="R0402" value="1k"/>
 <part name="GND4" library="supply1" deviceset="GND" device=""/>
 <part name="T1" library="GHI Transistors" deviceset="BSS138W-7-F" device="" value="BSS138W-7-F"/>
-<part name="SUPPLY8" library="GHI-PowerGoundSupply" deviceset="3.3V-WIFI" device=""/>
+<part name="U2" library="A3967SLBTR" deviceset="A3967SLBTR" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -16836,7 +17012,6 @@ of the large aluminum cap</text>
 <wire x1="635" y1="5.08" x2="635" y2="53.34" width="0.1524" layer="94" style="dashdot"/>
 <text x="58.42" y="571.5" size="12.7" layer="94" ratio="10">OSD3358 SiP</text>
 <text x="822.706" y="6.35" size="3.81" layer="94" font="vector">A0</text>
-<text x="751.84" y="38.1" size="2.1844" layer="94" font="vector">Prototyped by: GHI Electronics, LLC</text>
 <rectangle x1="755.533009375" y1="23.854834375" x2="756.376853125" y2="23.919746875" layer="200"/>
 <rectangle x1="758.648740625" y1="23.854834375" x2="759.427671875" y2="23.919746875" layer="200"/>
 <rectangle x1="755.4031875" y1="23.919746875" x2="756.5715875" y2="23.984653125" layer="200"/>
@@ -20347,6 +20522,7 @@ of the large aluminum cap</text>
 <rectangle x1="756.441765625" y1="34.694990625" x2="758.324184375" y2="34.759903125" layer="200"/>
 <rectangle x1="756.636496875" y1="34.759903125" x2="758.194365625" y2="34.824809375" layer="200"/>
 <rectangle x1="756.961053125" y1="34.8248125" x2="757.869809375" y2="34.889725" layer="200"/>
+<text x="480.06" y="91.44" size="6.4516" layer="94" ratio="10">Motor Driver</text>
 </plain>
 <instances>
 <instance part="FUD1" gate="G$1" x="749.3" y="48.26"/>
@@ -20910,7 +21086,7 @@ of the large aluminum cap</text>
 <instance part="R9" gate="G$1" x="274.32" y="238.76" rot="R90"/>
 <instance part="GND4" gate="1" x="274.32" y="205.74" rot="MR0"/>
 <instance part="T1" gate="G$1" x="274.32" y="215.9"/>
-<instance part="SUPPLY8" gate="G$1" x="274.32" y="248.92"/>
+<instance part="U2" gate="G$1" x="515.62" y="45.72"/>
 </instances>
 <busses>
 </busses>
@@ -24947,11 +25123,6 @@ of the large aluminum cap</text>
 <wire x1="264.16" y1="353.06" x2="261.62" y2="353.06" width="0.1524" layer="91"/>
 <junction x="261.62" y="353.06"/>
 </segment>
-<segment>
-<pinref part="R9" gate="G$1" pin="2"/>
-<wire x1="274.32" y1="246.38" x2="274.32" y2="243.84" width="0.1524" layer="91"/>
-<pinref part="SUPPLY8" gate="G$1" pin="3.3V-WIFI"/>
-</segment>
 </net>
 <net name="1.8V-WIFI" class="0">
 <segment>
@@ -25141,6 +25312,12 @@ of the large aluminum cap</text>
 <wire x1="132.08" y1="513.08" x2="132.08" y2="502.92" width="0.1524" layer="91"/>
 <pinref part="U1" gate="B" pin="VREFN"/>
 <wire x1="132.08" y1="502.92" x2="129.54" y2="502.92" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$30" class="0">
+<segment>
+<pinref part="R9" gate="G$1" pin="2"/>
+<wire x1="274.32" y1="246.38" x2="274.32" y2="243.84" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
