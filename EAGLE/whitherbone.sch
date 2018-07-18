@@ -26185,6 +26185,7 @@ Standard 4-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <part name="GND27" library="supply1" deviceset="GND" device=""/>
 <part name="SUPPLY10" library="GHI-PowerGoundSupply" deviceset="VDD_5V" device=""/>
 <part name="U2" library="SN74AHCT125PW" deviceset="SN74AHCT125PW" device=""/>
+<part name="C19" library="Seeed-Capacitor" deviceset="CERAMIC-1UF-10V-10%-X5R(0402)" device="" value="1uF,10V"/>
 </parts>
 <sheets>
 <sheet>
@@ -29797,6 +29798,7 @@ of the large aluminum cap</text>
 <text x="541.02" y="10.16" size="1.778" layer="98">licensed under a Creative Commons</text>
 <text x="541.02" y="7.62" size="1.778" layer="98">Attribution 3.0 US License</text>
 <text x="548.386" y="20.32" size="1.778" layer="98">Motor current 0mA to over 2A/phase</text>
+<text x="652.78" y="144.78" size="6.4516" layer="94" ratio="10">Neopixel Connector</text>
 </plain>
 <instances>
 <instance part="FUD1" gate="G$1" x="749.3" y="48.26"/>
@@ -30330,6 +30332,7 @@ of the large aluminum cap</text>
 <instance part="GND27" gate="1" x="716.28" y="111.76" rot="MR0"/>
 <instance part="SUPPLY10" gate="G$1" x="716.28" y="129.54" rot="MR0"/>
 <instance part="U2" gate="A" x="683.26" y="109.22"/>
+<instance part="C19" gate="G$1" x="706.12" y="111.76" rot="R90"/>
 </instances>
 <busses>
 </busses>
@@ -31432,14 +31435,15 @@ of the large aluminum cap</text>
 <label x="726.44" y="116.84" size="1.778" layer="95" rot="MR0"/>
 <pinref part="GND27" gate="1" pin="GND"/>
 <wire x1="716.28" y1="116.84" x2="716.28" y2="114.3" width="0.1524" layer="91"/>
-<wire x1="716.28" y1="116.84" x2="708.66" y2="116.84" width="0.1524" layer="91"/>
+<wire x1="716.28" y1="116.84" x2="711.2" y2="116.84" width="0.1524" layer="91"/>
 <junction x="716.28" y="116.84"/>
 <pinref part="U2" gate="A" pin="GND"/>
 <wire x1="665.48" y1="91.44" x2="662.94" y2="91.44" width="0.1524" layer="91"/>
 <wire x1="662.94" y1="91.44" x2="662.94" y2="78.74" width="0.1524" layer="91"/>
-<wire x1="662.94" y1="78.74" x2="708.66" y2="78.74" width="0.1524" layer="91"/>
-<wire x1="708.66" y1="78.74" x2="708.66" y2="116.84" width="0.1524" layer="91"/>
+<wire x1="662.94" y1="78.74" x2="711.2" y2="78.74" width="0.1524" layer="91"/>
+<wire x1="711.2" y1="78.74" x2="711.2" y2="104.14" width="0.1524" layer="91"/>
 <pinref part="U2" gate="A" pin="~1OE"/>
+<wire x1="711.2" y1="104.14" x2="711.2" y2="116.84" width="0.1524" layer="91"/>
 <wire x1="665.48" y1="116.84" x2="662.94" y2="116.84" width="0.1524" layer="91"/>
 <wire x1="662.94" y1="116.84" x2="662.94" y2="101.6" width="0.1524" layer="91"/>
 <pinref part="U2" gate="A" pin="2A"/>
@@ -31455,6 +31459,9 @@ of the large aluminum cap</text>
 <junction x="662.94" y="96.52"/>
 <junction x="662.94" y="99.06"/>
 <junction x="662.94" y="101.6"/>
+<wire x1="706.12" y1="104.14" x2="711.2" y2="104.14" width="0.1524" layer="91"/>
+<wire x1="706.12" y1="104.14" x2="706.12" y2="109.22" width="0.1524" layer="91"/>
+<junction x="711.2" y="104.14"/>
 </segment>
 </net>
 <net name="N$6" class="0">
@@ -32464,6 +32471,9 @@ of the large aluminum cap</text>
 <junction x="660.4" y="114.3"/>
 <junction x="660.4" y="111.76"/>
 <junction x="660.4" y="121.92"/>
+<junction x="716.28" y="124.46"/>
+<wire x1="706.12" y1="124.46" x2="706.12" y2="114.3" width="0.1524" layer="91"/>
+<junction x="706.12" y="124.46"/>
 </segment>
 </net>
 <net name="PWR_BUT" class="0">

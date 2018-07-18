@@ -4303,6 +4303,9 @@ design rules under a new name.</description>
 <attribute name="MP" value="SN74AHCT125PW" x="-68.1228" y="-245.4656" size="1.778" layer="27" display="off"/>
 <attribute name="PACKAGE" value="TSSOP-14 Texas Instruments" x="-68.1228" y="-245.4656" size="1.778" layer="27" display="off"/>
 </element>
+<element name="C19" library="Seeed-Capacitor" package="C0402" value="1uF,10V" x="-76.4286" y="-248.285">
+<attribute name="MPN" value="CC0402KRX5R6BB105" x="-76.4286" y="-248.285" size="1.778" layer="27" display="off"/>
+</element>
 </elements>
 <signals>
 <signal name="GND" class="1">
