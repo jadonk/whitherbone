@@ -26186,6 +26186,10 @@ Standard 4-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <part name="SUPPLY10" library="GHI-PowerGoundSupply" deviceset="VDD_5V" device=""/>
 <part name="U2" library="SN74AHCT125PW" deviceset="SN74AHCT125PW" device=""/>
 <part name="C19" library="Seeed-Capacitor" deviceset="CERAMIC-1UF-10V-10%-X5R(0402)" device="" value="1uF,10V"/>
+<part name="JP2" library="SparkFun" deviceset="M04" device="PTH"/>
+<part name="GND28" library="supply1" deviceset="GND" device=""/>
+<part name="SUPPLY18" library="GHI-PowerGoundSupply" deviceset="VDD_5V" device=""/>
+<part name="C21" library="Seeed-Capacitor" deviceset="CERAMIC-1UF-10V-10%-X5R(0402)" device="" value="1uF,10V"/>
 </parts>
 <sheets>
 <sheet>
@@ -29799,6 +29803,7 @@ of the large aluminum cap</text>
 <text x="541.02" y="7.62" size="1.778" layer="98">Attribution 3.0 US License</text>
 <text x="548.386" y="20.32" size="1.778" layer="98">Motor current 0mA to over 2A/phase</text>
 <text x="652.78" y="144.78" size="6.4516" layer="94" ratio="10">Neopixel Connector</text>
+<text x="228.6" y="678.18" size="6.4516" layer="94" ratio="10">FAN Connector</text>
 </plain>
 <instances>
 <instance part="FUD1" gate="G$1" x="749.3" y="48.26"/>
@@ -30329,10 +30334,14 @@ of the large aluminum cap</text>
 <instance part="R29" gate="G$1" x="157.48" y="492.76"/>
 <instance part="GND26" gate="1" x="172.72" y="492.76" rot="R90"/>
 <instance part="JP1" gate="G$1" x="734.06" y="119.38" rot="MR0"/>
-<instance part="GND27" gate="1" x="716.28" y="111.76" rot="MR0"/>
+<instance part="GND27" gate="1" x="718.82" y="111.76" rot="MR0"/>
 <instance part="SUPPLY10" gate="G$1" x="716.28" y="129.54" rot="MR0"/>
 <instance part="U2" gate="A" x="683.26" y="109.22"/>
 <instance part="C19" gate="G$1" x="706.12" y="111.76" rot="R90"/>
+<instance part="JP2" gate="G$1" x="264.16" y="655.32" rot="MR0"/>
+<instance part="GND28" gate="1" x="248.92" y="647.7" rot="MR0"/>
+<instance part="SUPPLY18" gate="G$1" x="246.38" y="665.48" rot="MR0"/>
+<instance part="C21" gate="G$1" x="236.22" y="647.7" rot="R90"/>
 </instances>
 <busses>
 </busses>
@@ -31431,12 +31440,12 @@ of the large aluminum cap</text>
 </segment>
 <segment>
 <pinref part="JP1" gate="G$1" pin="1"/>
-<wire x1="728.98" y1="116.84" x2="716.28" y2="116.84" width="0.1524" layer="91"/>
+<wire x1="728.98" y1="116.84" x2="718.82" y2="116.84" width="0.1524" layer="91"/>
 <label x="726.44" y="116.84" size="1.778" layer="95" rot="MR0"/>
 <pinref part="GND27" gate="1" pin="GND"/>
-<wire x1="716.28" y1="116.84" x2="716.28" y2="114.3" width="0.1524" layer="91"/>
-<wire x1="716.28" y1="116.84" x2="711.2" y2="116.84" width="0.1524" layer="91"/>
-<junction x="716.28" y="116.84"/>
+<wire x1="718.82" y1="116.84" x2="718.82" y2="114.3" width="0.1524" layer="91"/>
+<wire x1="718.82" y1="116.84" x2="711.2" y2="116.84" width="0.1524" layer="91"/>
+<junction x="718.82" y="116.84"/>
 <pinref part="U2" gate="A" pin="GND"/>
 <wire x1="665.48" y1="91.44" x2="662.94" y2="91.44" width="0.1524" layer="91"/>
 <wire x1="662.94" y1="91.44" x2="662.94" y2="78.74" width="0.1524" layer="91"/>
@@ -31462,6 +31471,24 @@ of the large aluminum cap</text>
 <wire x1="706.12" y1="104.14" x2="711.2" y2="104.14" width="0.1524" layer="91"/>
 <wire x1="706.12" y1="104.14" x2="706.12" y2="109.22" width="0.1524" layer="91"/>
 <junction x="711.2" y="104.14"/>
+<wire x1="718.82" y1="116.84" x2="718.82" y2="124.46" width="0.1524" layer="91"/>
+<pinref part="JP1" gate="G$1" pin="4"/>
+<wire x1="718.82" y1="124.46" x2="728.98" y2="124.46" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="JP2" gate="G$1" pin="1"/>
+<wire x1="259.08" y1="652.78" x2="248.92" y2="652.78" width="0.1524" layer="91"/>
+<label x="256.54" y="652.78" size="1.778" layer="95" rot="MR0"/>
+<pinref part="GND28" gate="1" pin="GND"/>
+<wire x1="248.92" y1="652.78" x2="248.92" y2="650.24" width="0.1524" layer="91"/>
+<wire x1="248.92" y1="652.78" x2="241.3" y2="652.78" width="0.1524" layer="91"/>
+<junction x="248.92" y="652.78"/>
+<wire x1="241.3" y1="640.08" x2="241.3" y2="652.78" width="0.1524" layer="91"/>
+<wire x1="236.22" y1="640.08" x2="241.3" y2="640.08" width="0.1524" layer="91"/>
+<wire x1="236.22" y1="640.08" x2="236.22" y2="645.16" width="0.1524" layer="91"/>
+<wire x1="248.92" y1="652.78" x2="248.92" y2="660.4" width="0.1524" layer="91"/>
+<pinref part="JP2" gate="G$1" pin="4"/>
+<wire x1="248.92" y1="660.4" x2="259.08" y2="660.4" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$6" class="0">
@@ -32449,12 +32476,10 @@ of the large aluminum cap</text>
 <wire x1="414.02" y1="76.2" x2="421.64" y2="76.2" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<wire x1="716.28" y1="124.46" x2="716.28" y2="127" width="0.1524" layer="91"/>
+<wire x1="716.28" y1="119.38" x2="716.28" y2="127" width="0.1524" layer="91"/>
 <pinref part="SUPPLY10" gate="G$1" pin="VDD_5V"/>
-<wire x1="706.12" y1="137.16" x2="706.12" y2="124.46" width="0.1524" layer="91"/>
-<wire x1="706.12" y1="124.46" x2="716.28" y2="124.46" width="0.1524" layer="91"/>
-<pinref part="JP1" gate="G$1" pin="4"/>
-<wire x1="716.28" y1="124.46" x2="728.98" y2="124.46" width="0.1524" layer="91"/>
+<wire x1="706.12" y1="137.16" x2="706.12" y2="119.38" width="0.1524" layer="91"/>
+<wire x1="706.12" y1="119.38" x2="716.28" y2="119.38" width="0.1524" layer="91"/>
 <pinref part="U2" gate="A" pin="VCC"/>
 <wire x1="665.48" y1="121.92" x2="660.4" y2="121.92" width="0.1524" layer="91"/>
 <wire x1="660.4" y1="121.92" x2="660.4" y2="137.16" width="0.1524" layer="91"/>
@@ -32471,9 +32496,23 @@ of the large aluminum cap</text>
 <junction x="660.4" y="114.3"/>
 <junction x="660.4" y="111.76"/>
 <junction x="660.4" y="121.92"/>
-<junction x="716.28" y="124.46"/>
-<wire x1="706.12" y1="124.46" x2="706.12" y2="114.3" width="0.1524" layer="91"/>
-<junction x="706.12" y="124.46"/>
+<wire x1="706.12" y1="119.38" x2="706.12" y2="114.3" width="0.1524" layer="91"/>
+<junction x="706.12" y="119.38"/>
+<pinref part="JP1" gate="G$1" pin="2"/>
+<wire x1="716.28" y1="119.38" x2="728.98" y2="119.38" width="0.1524" layer="91"/>
+<junction x="716.28" y="119.38"/>
+</segment>
+<segment>
+<wire x1="246.38" y1="657.86" x2="246.38" y2="662.94" width="0.1524" layer="91"/>
+<pinref part="SUPPLY18" gate="G$1" pin="VDD_5V"/>
+<wire x1="236.22" y1="657.86" x2="246.38" y2="657.86" width="0.1524" layer="91"/>
+<wire x1="236.22" y1="657.86" x2="236.22" y2="650.24" width="0.1524" layer="91"/>
+<pinref part="JP2" gate="G$1" pin="2"/>
+<wire x1="246.38" y1="657.86" x2="246.38" y2="655.32" width="0.1524" layer="91"/>
+<wire x1="246.38" y1="655.32" x2="259.08" y2="655.32" width="0.1524" layer="91"/>
+<pinref part="JP2" gate="G$1" pin="3"/>
+<wire x1="246.38" y1="657.86" x2="259.08" y2="657.86" width="0.1524" layer="91"/>
+<junction x="246.38" y="657.86"/>
 </segment>
 </net>
 <net name="PWR_BUT" class="0">
