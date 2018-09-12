@@ -1,3 +1,0 @@
-(fp_lib_table
-  (lib (name whitherbone.pretty)(type KiCad)(uri $KIPRJMOD/whitherbone.pretty)(options "")(descr ""))
-)
