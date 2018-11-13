@@ -4,4 +4,7 @@ Whithervanes: a neurotic, early worrying system are weathervanes controlled by t
 
 We've been asked many times how people can have their own Whithervane. So, we are making the Whithervanes Open Hardware Kit. A prototype version was included in the “Are you talking to me?” exhibition currently in St. Etienne, France. We want to make the Whithervanes Open Hardware Kit a PocketBeagle derivative (Whitherbone), and need some help to do this.
 
+![whitherbone rendering](whitherbone.png "Whitherbone")
+
+
 http://www.whithervanes.com/
