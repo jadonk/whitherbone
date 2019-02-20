@@ -31,6 +31,7 @@ http://www.whithervanes.com/
 ### Connector
 
 | Pin | Signal  |
+| --- | ------- |
 | 1   | Coil 1+ |
 | 2   | Coil 1- |
 | 3   | Coil 2- |
