@@ -30,12 +30,12 @@ http://www.whithervanes.com/
 
 ### Connector
 
-| Pin | Signal  | Wires  |
-| --- | ------- | ------ |
-| 1   | Coil 1+ | Red    |
-| 2   | Coil 1- | Green  |
-| 3   | Coil 2- | Blue   |
-| 4   | Coil 2+ | Yellow | 
+| Pin | Signal       | Wires  |
+| --- | ------------ | ------ |
+| 1   | Coil 1+ (A+) | Red    |
+| 2   | Coil 1- (A-) | Green  |
+| 3   | Coil 2- (B-) | Blue   |
+| 4   | Coil 2+ (B+) | Yellow | 
 
 ### Control signals
 
