@@ -9,13 +9,34 @@ We've been asked many times how people can have their own Whithervane. So, we ar
 
 http://www.whithervanes.com/
 
+## Fan
+| Pin | Signal |
+| --- | ------ |
+| 1   | GND    |
+| 2   | +5V    |
+| 3   | +5V    |
+| 4   | GND    |
+
 ## Neopixel ring
 
-| Ball | PRU  | SPI     | GPIO | Signal |
-| ---- | ---- | ------- | ---- | ------ |
-| B2   | 0.2  | 1-MOSI  | 112  | Data   |
+| Pin | Signal | CPU ball | PRU  | SPI    | GPIO | 
+| --- | ------ | -------- | ---- | ------ | ---- |
+| 1   | GND    |          |      |        |      | 
+| 2   | Data   | B2       | 0.2  | 1-MOSI | 112  | 
+| 3   | +5V    |          |      |        |      | 
+| 4   | GND    |          |      |        |      | 
 
 ## Motor
+
+### Connector
+
+| Pin | Signal  |
+| 1   | Coil 1+ |
+| 2   | Coil 1- |
+| 3   | Coil 2- |
+| 4   | Coil 2+ |
+
+### Control signals
 
 | Ball | GPIO | Signal |
 | ---- | ---- | ------ |
