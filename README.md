@@ -17,7 +17,7 @@ http://www.whithervanes.com/
 | 3   | +5V    |
 | 4   | GND    |
 
-## Neopixel ring
+## Neopixel ring (LED)
 
 | Pin | Signal | CPU ball | PRU  | SPI    | GPIO | 
 | --- | ------ | -------- | ---- | ------ | ---- |
