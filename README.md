@@ -22,7 +22,7 @@ http://www.whithervanes.com/
 | Pin | Signal | CPU ball | PRU  | SPI    | GPIO | 
 | --- | ------ | -------- | ---- | ------ | ---- |
 | 1   | GND    |          |      |        |      | 
-| 2   | Data   | B2       | 0.2  | 1-MOSI | 112  | 
+| 2   | Data (DOUT)  | B2       | 0.2  | 1-MOSI | 112  | 
 | 3   | +5V    |          |      |        |      | 
 | 4   | GND    |          |      |        |      | 
 
