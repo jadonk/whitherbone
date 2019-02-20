@@ -8,3 +8,22 @@ We've been asked many times how people can have their own Whithervane. So, we ar
 
 
 http://www.whithervanes.com/
+
+## Neopixel ring
+
+| Ball | GPIO | Signal |
+| ---- | ---- | ------ |
+| B2   |      | Data   |
+
+## Motor
+
+| Ball | GPIO | Signal |
+| ---- | ---- | ------ |
+| T4   | 22   | Step |
+| P5   | 23   | Direction |
+| R5   | 26   | Reset |
+| T5   | 27   | uS1 |
+| P6   | 44   | uS2 |
+| R6   | 45   | uS3 |
+| T6   | 46   | Enable |
+| P7   | 47   | Sleep
