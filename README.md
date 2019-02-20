@@ -11,9 +11,9 @@ http://www.whithervanes.com/
 
 ## Neopixel ring
 
-| Ball | GPIO | Signal |
-| ---- | ---- | ------ |
-| B2   |      | Data   |
+| Ball | PRU  | SPI     | GPIO | Signal |
+| ---- | ---- | ------- | ---- | ------ |
+| B2   | 0.2  | 1-MOSI  | 112  | Data   |
 
 ## Motor
 
